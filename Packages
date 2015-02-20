@@ -1,5 +1,5 @@
 Package: com.TweaksByLogan.AlwaysSpotOn
-Version: 0.0.1-3
+Version: 0.0.1-4
 Architecture: iphoneos-arm
 Maintainer: Logan O'Connell
 Installed-Size: 72
@@ -10,7 +10,7 @@ MD5sum: 5070dd74b841a0af1acfbad2a5447dba
 SHA1: d2a8e066b43152c10635a2fad68ed252f4ed5021
 SHA256: 0319c6bf72792a5a9b175be91b2938c8f416d6ff29d327164f9a2883a86b4967
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: Keep Spotlight open all the time!
 Author: Logan O'Connell
 Name: AlwaysSpotOn
 
