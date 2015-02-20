@@ -1,0 +1,8 @@
+Origin: loganoconnellrepo
+Label: Logan O’Connell
+Suite: stable
+Version: 1.0
+Codename: loganoconnellrepo
+Architectures: iphoneos-arm
+Components: main
+Description: My personal repo with tweaks I’m working on!
