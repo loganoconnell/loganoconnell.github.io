@@ -4,11 +4,11 @@ Architecture: iphoneos-arm
 Maintainer: Logan O'Connell
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.AlwaysSpotOn_0.0.1-3_iphoneos-arm.deb
-Size: 3224
-MD5sum: 5070dd74b841a0af1acfbad2a5447dba
-SHA1: d2a8e066b43152c10635a2fad68ed252f4ed5021
-SHA256: 0319c6bf72792a5a9b175be91b2938c8f416d6ff29d327164f9a2883a86b4967
+Filename: debs//com.TweaksByLogan.AlwaysSpotOn_0.0.1-4_iphoneos-arm.deb
+Size: 3228
+MD5sum: 45454511af0be324ae4e7e620818b1ec
+SHA1: 0390c94ca26a8fe80752703d1c7e79be097dbccf
+SHA256: 56d1e111dcaabd3e6c6b4d03950ad5dbb302f155183db0d70bd411e112428d3b
 Section: Tweaks
 Description: Keep Spotlight open all the time!
 Author: Logan O'Connell
