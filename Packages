@@ -78,6 +78,22 @@ Description: A completely redesigned and cleaner NC!
 Author: Logan O'Connell
 Name: SimpleNC
 
+Package: com.TweaksByLogan.SpaceText
+Version: 0.0.1-11
+Architecture: iphoneos-arm
+Maintainer: Logan O'Connell
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs//com.TweaksByLogan.SpaceText_0.0.1-11_iphoneos-arm.deb
+Size: 16534
+MD5sum: c3e12d6edff56140e5edd6cbc0e1fda3
+SHA1: 2d234b5d8ecdd52c43cbc43422ae6688a26266da
+SHA256: de33cf834f582fcaa88b679e4cb04d9f843543bfc546242d73b89bb76092a91d
+Section: Tweaks
+Description: Change the text on the “space” key!
+Author: Logan O'Connell
+Name: SpaceText
+
 Package: com.TweaksByLogan.Tap2LockAndRespring
 Version: 0.0.1-24
 Architecture: iphoneos-arm
