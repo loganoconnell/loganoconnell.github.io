@@ -62,6 +62,22 @@ Description: Remove the text from the “space” key!
 Author: Logan O'Connell
 Name: NoSpace
 
+Package: com.TweaksByLogan.PopoverActions8
+Version: 0.0.1-13
+Architecture: iphoneos-arm
+Maintainer: Logan O'Connell
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs//com.TweaksByLogan.PopoverActions8_0.0.1-13_iphoneos-arm.deb
+Size: 4720
+MD5sum: 09638da0984519739160c4076a1e3276
+SHA1: 664c35f904f17cc7bb607087db7eae46fb14ad00
+SHA256: 3d6b55bb070fe26cc7a5038869c39ddf8b0a59e6213ea87d96b5f7acd0e1c485
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Logan O'Connell
+Name: PopoverActions8
+
 Package: com.TweaksByLogan.SimpleNC
 Version: 0.0.1-109
 Architecture: iphoneos-arm
