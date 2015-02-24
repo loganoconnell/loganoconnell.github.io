@@ -46,6 +46,22 @@ Description: Makes notification slide buttons CLEAR!
 Author: Logan O'Connell
 Name: ClearNotificationButtons
 
+Package: com.TweaksByLogan.CoolDown
+Version: 0.0.1-10
+Architecture: iphoneos-arm
+Maintainer: Logan O'Connell
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs//com.TweaksByLogan.CoolDown_0.0.1-10_iphoneos-arm.deb
+Size: 11154
+MD5sum: d9408fe78e2872cfe9b69da17b91b689
+SHA1: 5976ba11bfdff2aec56e207d88e4595995379447
+SHA256: 9cfe0696ea40d59e3be8af29e1c31f6871665e17b9ba35cb81b50e0882600c14
+Section: Tweaks
+Description: An Android-style power-off screen!
+Author: Logan O'Connell
+Name: CoolDown
+
 Package: com.TweaksByLogan.NoSpace
 Version: 0.0.1-13
 Architecture: iphoneos-arm
