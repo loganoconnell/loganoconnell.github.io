@@ -47,16 +47,16 @@ Author: Logan O'Connell
 Name: ClearNotificationButtons
 
 Package: com.TweaksByLogan.CoolDown
-Version: 0.0.1-10
+Version: 0.0.1-18
 Architecture: iphoneos-arm
 Maintainer: Logan O'Connell
-Installed-Size: 152
+Installed-Size: 184
 Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.CoolDown_0.0.1-10_iphoneos-arm.deb
-Size: 11154
-MD5sum: d9408fe78e2872cfe9b69da17b91b689
-SHA1: 5976ba11bfdff2aec56e207d88e4595995379447
-SHA256: 9cfe0696ea40d59e3be8af29e1c31f6871665e17b9ba35cb81b50e0882600c14
+Filename: debs//com.TweaksByLogan.CoolDown_0.0.1-18_iphoneos-arm.deb
+Size: 20438
+MD5sum: 6a37e964e227bfd70f9491dc36ed1ee3
+SHA1: 6573c8ac65dc7e0e0deb65e8f9126dfcb244702b
+SHA256: 58d956d8f78085a966521fb59b1601db3247ee82a0f0920b0e9fc017f3ec4be2
 Section: Tweaks
 Description: An Android-style power-off screen!
 Author: Logan O'Connell
