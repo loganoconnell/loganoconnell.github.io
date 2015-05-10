@@ -1,5 +1,6 @@
 body {
 	font-family: "Arial";
+	background-color: #060606;
 }
 
 .footer {
@@ -14,26 +15,29 @@ body {
 .main-header {
 	text-align: center;
 	font-size: 80px;
+	color: #FFFFFF
 }
 
 .main-subheader {
     text-align: center;
 	font-size: 25px;
+	color: #FFFFFF;
 	width: 100%;
 }
 
 .main-links {
 	text-align: center;
 	font-size: 30px;
+	color: #FFFFFF;
 }
 
 a:link {
 	text-decoration:none;
-	color: #2780E3;
+	color: #2A9FD6;
 }
 
 a:visited {
-	color: #2780E3;
+	color: #2A9FD6;
 }
 
 a:hover {
