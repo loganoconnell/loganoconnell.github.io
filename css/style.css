@@ -151,7 +151,7 @@ h1 span{
   margin-left: -10px;
   width: 21px;
   height: 29px;
-  background: url(../img/arrow-down.png) no-repeat center center;
+  background: url(../img/icons/arrow-down.png) no-repeat center center;
   display: block;
   -webkit-animation: bounce-fade 1.2s infinite; /* Safari 4+ */
   -moz-animation:    bounce-fade 1.2s infinite; /* Fx 5+ */
