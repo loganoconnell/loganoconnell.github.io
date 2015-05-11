@@ -1,21 +1,5 @@
-/* Thomsoon.com - OnePage CSS Responsive theme
--- version 1.0
--- Copyright (c) 2014 Thomsoon.com
--- licensed under the MIT
---
--- http://www.thomsoon.com/free-onepage-theme-html5.html
---
-*/
-
-/* Font Google - strong reaload time */
+/* Font Google - strong reload time */
 @import url(http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400);
-
-
-/*
- * Theme Name: Onepage
- * Author: Thomsoon
- * Created: 15/02/2014
- */
 
 html, body{
   font-family: 'Roboto', sans-serif;
@@ -95,18 +79,6 @@ h1 span{
   width:900px;
   margin:0 auto;
   height:580px;
-}
-
-.start-page .content .text{
-  position:absolute;
-  text-align:center;
-  margin:auto;
-  top:0; 
-  left:0; 
-  bottom:0; 
-  right:0;
-  width:500px;
-  height:320px;
 }
 
 .start-page .content .text{

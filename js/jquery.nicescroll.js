@@ -1,13 +1,3 @@
-/* jquery.nicescroll
--- version 3.4.0
--- copyright 2011-12-13 InuYaksa*2013
--- licensed under the MIT
---
--- http://areaaperta.com/nicescroll
--- https://github.com/inuyaksa/jquery.nicescroll
---
-*/
-
 (function(jQuery){
 
   // globals
