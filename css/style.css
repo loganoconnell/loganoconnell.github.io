@@ -341,7 +341,7 @@ h1 span{
 
 .about-us .column-one{
   margin-top:40px;
-  width:300px;
+  width:450px;
   float:left;
   margin-bottom:70px;
   height:350px;
@@ -370,46 +370,16 @@ h1 span{
 
 }
 
-.about-us .column-two{
+
+.about-us .column-two{ 
   margin-top:40px;
-  width:300px;
+  width:450px;
   float:left;
   margin-bottom:70px;
   height:350px;
 }
 
-.about-us .column-two .circle-two{
-  height: 174px;
-  position:relative;
-  margin:0 auto;
-  border:8px solid #ebebeb;
-  background: url(../img/icons/minimalist.png) #f3f3f3 no-repeat center center;
-  -moz-border-radius:174px;
-  -webkit-border-radius:174px;
-  border-radius: 174px;
-  width: 174px;
-    cursor:pointer;
-    -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.about-us .column-two .circle-two:hover{
-  background: url(../img/icons/minimalist.png) #007aff no-repeat center center;
-}
-
-
-.about-us .column-three{ 
-  margin-top:40px;
-  width:300px;
-  float:left;
-  margin-bottom:70px;
-  height:350px;
-}
-
-.about-us .column-three .circle-three{ 
+.about-us .column-two .circle-two{ 
   height: 174px;
   position:relative;
   margin:0 auto;
@@ -427,7 +397,7 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-three .circle-three:hover{ 
+.about-us .column-two .circle-two:hover{ 
   background: url(../img/icons/free.png) #007aff no-repeat center center;
 }
 
@@ -448,31 +418,6 @@ h1 span{
   width:900px;
   overflow:hidden;
   margin:0 auto;
-}
-
-.portfolio .portfolio-margin .read-more{
-  width:183px;
-  height:47px;
-  position:relative;
-  margin:50px auto;
-  line-height:47px;
-  border:1px solid white;
-  text-transform:uppercase;
-  text-align:center;
-  color:white;
-  cursor:pointer;
-  font-size:19px;
-  background:none;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.portfolio .portfolio-margin .read-more:hover{
-  color:black;
-  background:white;
 }
 
 .portfolio .portfolio-margin h1{
@@ -582,27 +527,6 @@ h1 span{
   font-size:32px;
   font-weight:300;
   text-align:center;
-}
-
-.partners .logo{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin-top:50px;
-  text-align:center;
-}
-
-.partners .logo img{
-  opacity:0.5;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.partners .logo img:hover{
-  opacity:1;
 }
 
 /* Contact */
@@ -781,4 +705,3 @@ textarea{
   padding-right:25px;
   color:#5f666e;
 }
-

@@ -14,38 +14,6 @@ Description: Keep Spotlight open all the time!
 Author: Logan O'Connell
 Name: AlwaysSpotOn
 
-Package: com.TweaksByLogan.BetterDelete
-Version: 0.0.1-4
-Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.BetterDelete_0.0.1-4_iphoneos-arm.deb
-Size: 4746
-MD5sum: b176db5786234e9d62150f521c377f98
-SHA1: 9b7765f9237fa87e5abaf97b9e355f6b38a69150
-SHA256: 22b0dd1b03b7080bdc8720864a173f2d73e69d430ea3e775ada228bf97920829
-Section: Tweaks
-Description: Better app deletion alerts with lots more info!
-Author: Logan O'Connell
-Name: BetterDelete
-
-Package: com.TweaksByLogan.ClearNotificationButtons
-Version: 0.0.1-15
-Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.ClearNotificationButtons_0.0.1-15_iphoneos-arm.deb
-Size: 3466
-MD5sum: a70559741c7a20b2a3a45fd8d048f2b7
-SHA1: 7372ab32996f6d155f7dc93d4261c36cdd1ccac5
-SHA256: 88f888952b52b754fcf796764353d55a1257954da6075d8cbc43dc87932165dc
-Section: Tweaks
-Description: Makes notification slide buttons CLEAR!
-Author: Logan O'Connell
-Name: ClearNotificationButtons
-
 Package: com.TweaksByLogan.CoolDown
 Version: 0.0.1-113
 Architecture: iphoneos-arm
@@ -78,6 +46,22 @@ Description: Remove the text from the “space” key!
 Author: Logan O'Connell
 Name: NoSpace
 
+Package: com.TweaksByLogan.NoTwitterBadges
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Logan O'Connell
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs//com.TweaksByLogan.NoTwitterBadges_0.0.1-1_iphoneos-arm.deb
+Size: 3040
+MD5sum: ec109b75f450debcd38422d6611b4729
+SHA1: c2adbefbb5649bb41a03def61a426e58ca2b0530
+SHA256: 255e204ada9184e4dd25fd71f57d1b675c51684a1a3ce2a5daa0304762de659a
+Section: Tweaks
+Description: No more annoying Twitter badges!
+Author: Logan O'Connell
+Name: NoTwitterBadges
+
 Package: com.TweaksByLogan.PopoverActions8
 Version: 0.0.1-34
 Architecture: iphoneos-arm
@@ -94,83 +78,19 @@ Description: Use the iPad-style UIActionSheets!
 Author: Logan O'Connell
 Name: PopoverActions8
 
-Package: com.TweaksByLogan.SimpleNC
-Version: 0.0.1-109
+Package: com.orca.snoopwalls
+Version: 0.0.1-4
 Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 196
+Maintainer: Logan O' Connell & BrandDev
+Installed-Size: 5060
 Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.SimpleNC_0.0.1-109_iphoneos-arm.deb
-Size: 23166
-MD5sum: 2c0385ad10c2e2c7218e72b2c2284d90
-SHA1: e26d0a87baa954854b51198780ee45341112d6cc
-SHA256: d67377b7212f2ea33da5b3236940cb21f7411b6c026e6c03232e44498a7587e3
+Filename: debs//com.orca.snoopwalls_0.0.1-4_iphoneos-arm.deb
+Size: 4396684
+MD5sum: 1e33458c5c9756f9ed06d8d7d8f1b174
+SHA1: 49f03c87866d429cef44d908befc021c92f57096
+SHA256: 7f2db0d0b66d0d3470b57751181feb671d052d2ec115d57d9bcba03803e13c07
 Section: Tweaks
-Description: A completely redesigned and cleaner NC!
-Author: Logan O'Connell
-Name: SimpleNC
-
-Package: com.TweaksByLogan.SpaceText
-Version: 0.0.1-18
-Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 172
-Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.SpaceText_0.0.1-18_iphoneos-arm.deb
-Size: 16588
-MD5sum: a7ac3e8d90760a94a0f4f474cad58fea
-SHA1: d02e535c44612097627f97bdd41052952b4ce2fc
-SHA256: 60121dfb9f1da7c38f2a537266cef12f9a0927c9be63f939cfc2b01415fa4474
-Section: Tweaks
-Description: Change the text on the “space” key!
-Author: Logan O'Connell
-Name: SpaceText
-
-Package: com.TweaksByLogan.Tap2LockAndRespring
-Version: 0.0.1-24
-Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 176
-Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.Tap2LockAndRespring_0.0.1-24_iphoneos-arm.deb
-Size: 14162
-MD5sum: eaecdede44dcb1c637f782210d750231
-SHA1: fbecb4140a018222bb284d555f3e43e552da0d7f
-SHA256: b26d2f4d6852f1af859e1d91809f137280cba22480144d060e951083654614c6
-Section: Tweaks
-Description: Lock by double tapping SB, hold to respring!
-Author: Logan O'Connell
-Name: Tap2LockAndRespring
-
-Package: com.TweaksByLogan.UninstallNever
-Version: 0.0.2-7
-Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.UninstallNever_0.0.1-7_iphoneos-arm.deb
-Size: 9892
-MD5sum: f86b73d42a6ab2243c472442bd5e34c1
-SHA1: dc44ca8e8d1167a584ef0210c414b4f5d6042580
-SHA256: ece096316992c10d24a3cd5a084ceddaee9117b3fdf740a622163df6537bf43c
-Section: Tweaks
-Description: Prevent unwanted deleting of your apps!
-Author: Logan O'Connell
-Name: UninstallNever
-
-Package: com.TweaksByLogan.nNoTwitterBadges
-Version: 0.0.1-3
-Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.nNoTwitterBadges_0.0.1-3_iphoneos-arm.deb
-Size: 3040
-MD5sum: 6ab70879b5fedff68bf885212fac951b
-SHA1: c7d7b9b0ff51053b9dc40e3d83c0e89e8fd09d27
-SHA256: 76b2b9980095dda5ea221c78c982a82592c8720aeb580f816188eb5ece04a1ad
-Section: Tweaks
-Description: No more annoying Twitter badges!
-Author: Logan O'Connell
-Name: NoTwitterBadges
+Description: Activate a Snoop Dogg wallpaper at 4:20!
+Author: Logan O' Connell & BrandDev
+Name: SnoopWalls
 

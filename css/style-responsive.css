@@ -1,3 +1,4 @@
+/* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
 .menu{
@@ -20,7 +21,6 @@
   width:300px;
 }
 
-
 h1 {
   font-size:36px;
 }
@@ -42,25 +42,12 @@ h1 {
   margin-bottom:20px;
 }
 
- .about-us .column-three{
-  width:300px;
-  margin-bottom:70px;
- }
-
 .portfolio .portfolio-margin{
   width:300px;
 }
 
 .partners .content{
   width:300px;
-}
-
-.partners .logo {
-  width:300px;
-}
-
-.partners .logo img {
-  width:80px;
 }
 
 .contact, .contact .content, .contact .content .form{
@@ -128,7 +115,6 @@ h1 {
   width:560px;
 }
 
-
 h1 {
   font-size:56px;
 }
@@ -150,25 +136,12 @@ h1 {
   margin-bottom:20px;
 }
 
- .about-us .column-three{
-  width:300px;
-  margin-bottom:70px;
- }
-
 .portfolio .portfolio-margin{
   width:300px;
 }
 
 .partners .content{
   width:300px;
-}
-
-.partners .logo {
-  width:300px;
-}
-
-.partners .logo img {
-  width:80px;
 }
 
 .contact, .contact .content, .contact .content .form{
@@ -193,8 +166,6 @@ h1 {
 
 .footer .margin .menu-footer{
   width:320px;
-}
-
 }
 
 
@@ -225,15 +196,11 @@ h1 {
 }
 
 .about-us .column-one{
-  width:233px;
+  width:350px;
 }
 
 .about-us .column-two{
-  width:233px;
-}
-
-.about-us .column-three{
-  width:233px;
+  width:350px;
 }
 
 .portfolio .portfolio-margin {
@@ -241,10 +208,6 @@ h1 {
 }
 
 .partners .content{
-  width:700px;
-}
-
-.partners .logo {
   width:700px;
 }
 
@@ -281,6 +244,4 @@ textarea{
 
 .contact .content .contact-text {
   width:275px;
-}
-
 }
