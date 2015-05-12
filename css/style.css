@@ -625,11 +625,12 @@ textarea{
   margin-bottom:10px;
 }
 
-.contact .content .form .button{
+.contact .content .form .button .send{
   width:142px;
-  height:34px;
+  height:40px;
   float:right;
   margin:0;
+  padding:0;
   background:#121212;
   border:0;
   -moz-border-radius:4px;
@@ -642,15 +643,15 @@ textarea{
 	transition: all 0.2s ease-in;
 }
 
-.contact .content .form a .button{
+.contact .content .form a .button .send{
   text-align:center;
   color:white;
   font-weight:bold;
-  line-height:34px;
+  line-height:40px;
   font-size:17px;
 }
 
-.contact .content .form .button:hover{
+.contact .content .form .button .send:hover{
   color:white;
   background:#007aff;
 }
