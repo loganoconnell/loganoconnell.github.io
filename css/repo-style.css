@@ -14,18 +14,20 @@ html, body{
     position:relative;
 }
 
-#header {
-	width: 150px;
-	height: 150px;
-	border-radius: 75px;
-	-webkit-border-radius: 75px;
-	-moz-border-radius: 75px;
-    margin: 0 auto;
-	background: url(../cydiarepo/CydiaIcon.png) no-repeat;
-    background-size: cover;
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
-	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
-	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+#header{
+    width:150px;
+    height:150px;
+    border-radius:5px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+    background:url(../cydiarepo/CydiaIcon.png) no-repeat;
+    background-size:cover;
+    margin:0 auto;
+}
+
+img {
+    opacity:0;
+    filter:alpha(opacity=0);
 }
 
 h1 {
