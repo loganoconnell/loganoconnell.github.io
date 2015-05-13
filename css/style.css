@@ -270,7 +270,8 @@ h1 span{
 }
 
 .menu-content li.active a{
-  background-color:#000;
+  background-color:#007aff;
+  color:white;
 }
 
 .menu-content li a:hover{
@@ -409,7 +410,7 @@ h1 span{
 .portfolio{
   position:relative;
   width:100%;
-  background:#121212;
+  background:#222222;
 
 }
 

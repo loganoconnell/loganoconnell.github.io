@@ -78,19 +78,3 @@ Description: Use the iPad-style UIActionSheets!
 Author: Logan O'Connell
 Name: PopoverActions8
 
-Package: com.orca.snoopwalls
-Version: 0.0.1-4
-Architecture: iphoneos-arm
-Maintainer: Logan O' Connell & BrandDev
-Installed-Size: 5060
-Depends: mobilesubstrate
-Filename: debs//com.orca.snoopwalls_0.0.1-4_iphoneos-arm.deb
-Size: 4396684
-MD5sum: 1e33458c5c9756f9ed06d8d7d8f1b174
-SHA1: 49f03c87866d429cef44d908befc021c92f57096
-SHA256: 7f2db0d0b66d0d3470b57751181feb671d052d2ec115d57d9bcba03803e13c07
-Section: Tweaks
-Description: Activate a Snoop Dogg wallpaper at 4:20!
-Author: Logan O' Connell & BrandDev
-Name: SnoopWalls
-
