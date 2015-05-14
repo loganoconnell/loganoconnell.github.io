@@ -1,26 +1,47 @@
 /* Font Google - strong reload time */
 @import url(http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400);
 
-html, body{
+html, body {
+    position:relative;
+    width:100%;
     height:100%;
     background:#e6e6e6;
     margin:0;
     padding:0;
 }
 
-#repo {
-    height:100%;
-    width:100%;
+#container {
     position:relative;
+    width:100%;
+    height:480px;
+    top:50%;
+    transform:translateY(-50%);
+    background:url('../img/background/repo-start-page.jpg') no-repeat center center;
 }
 
-#header{
+#opacity {
+    position:relative;
+    width:100%;
+    height:480px;
+    top:50%;
+    transform:translateY(-50%);
+    background:rgba(0,0,0,0.7);
+}
+
+#content {
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+#header {
+    position:relative;
     width:150px;
     height:150px;
     border-radius:75px;
     -webkit-border-radius:75px;
     -moz-border-radius:75px;
-    background:url(../cydiarepo/CydiaIcon.png) no-repeat;
+    background:url(../cydiarepo/CydiaIcon.png) no-repeat center;
     background-size:cover;
     margin:0 auto;
 }
@@ -31,20 +52,25 @@ img {
 }
 
 h1 {
-    color:#007aff;
-    font-size:2em;
+    color:#fff;
+    font-size:2.2em;
     font-family:'Roboto', sans-serif;
-    font-weight:400;
+    font-weight:500;
     text-align:center;
+    text-transform:uppercase;
+}
+
+h1 span{
+    color:#007aff;
 }
 
 hr {
     width:50%;
-    border-color:black;
+    border-color:#fff;
 }
 
 h2 {
-    color:#000;
+    color:#fff;
     font-size:1.5em;
     font-family:'Roboto', sans-serif;
     font-weight:300;
