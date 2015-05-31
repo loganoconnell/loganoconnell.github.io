@@ -39,11 +39,16 @@ jQuery(document).ready(function($){
 	e.preventDefault();
        
 	var target = $(this).attr("href");
-			
 
-	$('html, body').stop().animate({ scrollTop: $(target).offset().top-140 }, 1000, function() {
+  if (target === "#about-us") {
 
-	});
+    $('html, body').stop().animate({ scrollTop: $(target).offset().top-140 }, 1000, function() {});
+  }
+
+  else {
+
+    $('html, body').stop().animate({ scrollTop: $(target).offset().top-90 }, 1000, function() {});
+  }
 			
 	return false;
    });
