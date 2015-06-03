@@ -656,6 +656,7 @@ textarea{
 .contact .content .form .button .send:hover{
   color:white;
   background:#007aff;
+  cursor:pointer;
 }
 
 /* Footer */
