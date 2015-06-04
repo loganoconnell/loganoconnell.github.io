@@ -57,15 +57,15 @@ jQuery(document).ready(function($){
 
     if (target === "#about-us") {
 
-      $( " ul.menu-click" ).slideToggle( "slow", function() {
+      $( " ul.menu-click" ).slideUp( "slow", function() {
 
         $('html, body').stop().animate({ scrollTop: $(target).offset().top-50 }, 1000, function() {});
       });
     }
 
-    else if (target === "#portfolio" || target === "#contact") {
+    else if (target === "#home" || target === "#portfolio" || target === "#contact") {
 
-      $( " ul.menu-click" ).slideToggle( "slow", function() {
+      $( " ul.menu-click" ).slideUp( "slow", function() {
 
         $('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {});
       });
