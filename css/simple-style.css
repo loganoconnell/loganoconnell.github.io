@@ -19,10 +19,10 @@ html, body {
     -ms-transform:translateY(-50%);
     -o-transform:translateY(-50%);
     transform:translateY(-50%);
-    opacity:0.0;
 }
 
 #header {
+    display:none;
 	text-align: center;
 	font-size: 80px;
 	color: #FFFFFF;
@@ -32,12 +32,14 @@ html, body {
     text-align: center;
 	font-size: 40px;
 	color: #FFFFFF;
+    opacity:0.0;
 }
 
 #links {
 	text-align: center;
 	font-size: 30px;
 	color: #FFFFFF;
+    opacity:0.0;
 }
 
 a:link {

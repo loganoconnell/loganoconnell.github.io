@@ -1,4 +1,7 @@
 jQuery(document).ready(function($){
 
-  $("#container").fadeTo(1500, 1);
+    $("#links, #subheader").fadeTo(1000, 1, function() {
+
+        $("#header").slideDown(500);
+    });
 });

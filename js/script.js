@@ -73,7 +73,7 @@ jQuery(document).ready(function($){
 
     else {
 
-      $('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {});
+      return true;
     }
   }
 			
@@ -133,6 +133,14 @@ jQuery(document).ready(function($){
     // Animation complete.
     });
   });
+    
+  $(window).resize(function() {
+ 
+    if (($(window).width()) > "767") {
+ 
+        $(" ul.menu-click" ).hide();
+    }
+  });  
 
   
 });
