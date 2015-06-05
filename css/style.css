@@ -128,7 +128,7 @@ h1 span{
   -webkit-animation: bounce-fade 1.2s infinite; /* Safari 4+ */
   -moz-animation:    bounce-fade 1.2s infinite; /* Fx 5+ */
   -o-animation:      bounce-fade 1.2s infinite; /* Opera 12+ */
-   animation:        bounce-fade 1.2s infinite; /* IE 10+ */
+  animation:         bounce-fade 1.2s infinite; /* IE 10+ */
 }
 
 
@@ -168,13 +168,13 @@ h1 span{
 }
 
 .menu-media .menu-content .logo {
-   color:white;
-   font-weight:700;
-   font-size:30px;
-   width:200px;
-   line-height:90px;
-   float:left;
-   list-style: none;
+  color:white;
+  font-weight:700;
+  font-size:30px;
+  width:200px;
+  line-height:90px;
+  float:left;
+  list-style: none;
 }
 
 .menu-media .menu-content .icon{
@@ -183,7 +183,6 @@ h1 span{
   height:23px;
   float:right;
   line-height:100px;
-
 }
 
 
@@ -204,14 +203,14 @@ h1 span{
 }
 
 .menu-content .logo {
-   color:white;
-   background:#121212;
-   font-weight:700;
-   font-size:30px;
-   width:300px;
-   line-height:90px;
-   float:left;
-   list-style: none;
+  color:white;
+  background:#121212;
+  font-weight:700;
+  font-size:30px;
+  width:300px;
+  line-height:90px;
+  float:left;
+  list-style: none;
  }
 
 
@@ -286,7 +285,6 @@ h1 span{
   width:900px;
   margin:0 auto;
   margin-bottom:10px;
-
 }
 
 .about-us h1{
@@ -297,7 +295,6 @@ h1 span{
   font-weight:bold;
   text-transform:uppercase;
   line-height:1.2;
-
 }
 
 .about-us hr{
@@ -307,7 +304,6 @@ h1 span{
   height: 1px;
   width:340px;
   border:0;
-
 }
 
 .about-us p.title{
@@ -359,7 +355,7 @@ h1 span{
   border-radius: 174px;
   width: 174px;
   cursor:pointer;
-    -webkit-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
@@ -368,7 +364,7 @@ h1 span{
 
 .about-us .column-one .circle-one:hover{
   background: url(../img/icons/responsive.png) #007aff no-repeat center center;
-
+  cursor:default;
 }
 
 
@@ -400,6 +396,7 @@ h1 span{
 
 .about-us .column-two .circle-two:hover{ 
   background: url(../img/icons/free.png) #007aff no-repeat center center;
+  cursor:default;
 }
 
 
@@ -411,7 +408,6 @@ h1 span{
   position:relative;
   width:100%;
   background:#222222;
-
 }
 
 .portfolio .portfolio-margin{
@@ -429,7 +425,6 @@ h1 span{
   font-weight:bold;
   text-transform:uppercase;
   line-height:1.2;
-
 }
 
 .portfolio .portfolio-margin hr{
@@ -536,7 +531,6 @@ h1 span{
   position:relative;
   width:900px;
   margin: 0 auto;  
-  
 }
 
 .contact h1{
@@ -547,7 +541,6 @@ h1 span{
   font-weight:bold;
   text-transform:uppercase;
   line-height:1.2;
-
 }
 
 .contact hr{
@@ -564,7 +557,6 @@ h1 span{
   width:900px;
   overflow:hidden;
   margin: 60px 0 65px 0;  
-  
 }
 
 .contact .content .form{
@@ -572,7 +564,6 @@ h1 span{
   overflow:hidden;
   height:auto;
   float:left;
- 
 }
 
 .contact .content .contact-text{
@@ -588,7 +579,6 @@ h1 span{
 
 strong{
   font-weight:700;
-
 }
 
 input{
