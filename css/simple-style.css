@@ -24,20 +24,20 @@ html, body {
 #header {
     display:none;
 	text-align: center;
-	font-size: 80px;
+	font-size: 7vw;
 	color: #FFFFFF;
 }
 
 #subheader {
     text-align: center;
-	font-size: 40px;
+	font-size: 3.5vw;
 	color: #FFFFFF;
     opacity:0.0;
 }
 
 #links {
 	text-align: center;
-	font-size: 30px;
+	font-size: 2.625vw;
 	color: #FFFFFF;
     opacity:0.0;
 }
