@@ -118,12 +118,26 @@ jQuery(document).ready(function($){
       tiles.each(function(i) {
           a = $(this).offset().top + $(this).height();
           b = $(window).scrollTop() + $(window).height();
-          if (a < b) $(this).fadeTo(1000,1);
+          if (a < b) {
+
+            if ($(this).is(".header")) {
+
+              $(this).fadeTo(1000, 1);
+              $(this).animate({ color:"white" }, 500);
+            }
+
+            else {
+
+              $(this).fadeTo(1000, 1);
+            }
+          }
       });
     });
 
   }
   else {
+
+    $(".header").css({ color:"white" });
   }
 
 
