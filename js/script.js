@@ -44,12 +44,12 @@ jQuery(document).ready(function($){
 
     if (target === "#about-us") {
 
-      $('html, body').stop().animate({ scrollTop: $(target).offset().top-140 }, 1000, function() {});
+      $('html, body').stop().animate({ scrollTop: $(target).offset().top-140 }, 1500, "easeInOutExpo");
     }
 
     else {
 
-      $('html, body').stop().animate({ scrollTop: $(target).offset().top-90 }, 1000, function() {});
+      $('html, body').stop().animate({ scrollTop: $(target).offset().top-90 }, 1500, "easeInOutExpo");
     }
   }
 
@@ -59,7 +59,7 @@ jQuery(document).ready(function($){
 
       $( " ul.menu-click" ).slideUp( "slow", function() {
 
-        $('html, body').stop().animate({ scrollTop: $(target).offset().top-50 }, 1000, function() {});
+        $('html, body').stop().animate({ scrollTop: $(target).offset().top-50 }, 1500, "easeInOutExpo");
       });
     }
 
@@ -67,7 +67,7 @@ jQuery(document).ready(function($){
 
       $( " ul.menu-click" ).slideUp( "slow", function() {
 
-        $('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {});
+        $('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1500, "easeInOutExpo");
       });
     }
 
