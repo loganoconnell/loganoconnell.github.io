@@ -69,7 +69,7 @@
 	}
 
 	html, body {
-		height: 100vh;
+		height: 100%;
 		overflow-x: hidden;
 		width: 100%;
 	}
@@ -77,8 +77,8 @@
 		@media screen and (max-height: 640px) {
 
 			html, body {
-				height: 100vh;
-				min-height: 100vh;
+				height: auto;
+				min-height: 100%;
 			}
 
 		}
