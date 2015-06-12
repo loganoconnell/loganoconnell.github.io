@@ -127,7 +127,7 @@
 		@media screen and (max-width: 736px) {
 
 			body {
-				padding: 5em 2em 2em 2em;
+				padding: 2em;
 			}
 
 		}
@@ -135,7 +135,7 @@
 		@media screen and (max-width: 360px) {
 
 			body {
-				padding: 5em 1.25em 1.25em 1.25em;
+				padding: 1.25em;
 			}
 
 		}
