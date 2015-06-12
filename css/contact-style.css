@@ -635,17 +635,9 @@
 				color: #ffffff;
 			}
 
-				form .message.success:before {
-					content: '\f00c';
-				}
-
 			form .message.failure {
 				color: #ff2361;
 			}
-
-				form .message.failure:before {
-					content: '\f119';
-				}
 
 	label {
 		color: #fff;
