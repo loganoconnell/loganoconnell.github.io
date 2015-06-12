@@ -132,14 +132,6 @@
 
 		}
 
-		@media screen and (max-width: 360px) {
-
-			body {
-				padding: 1.25em;
-			}
-
-		}
-
         ::selection {
             background: rgba(255, 255, 255, 0.5);
             color: #ffffff;
