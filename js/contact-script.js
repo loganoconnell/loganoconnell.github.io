@@ -33,11 +33,11 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'../img/contact-background/bg1.jpg': 'center',
-							'../img/contact-background/bg2.jpg': 'center',
-                            '../img/contact-background/bg3.jpg': 'center',
-							'../img/contact-background/bg4.jpg': 'center',
-                            '../img/contact-background/bg5.jpg': 'center'
+							'../img/background/bg1.jpg': 'center',
+							'../img/background/bg2.jpg': 'center',
+                            '../img/background/bg3.jpg': 'center',
+							'../img/background/bg4.jpg': 'center',
+                            '../img/background/bg5.jpg': 'center'
 						},
 
 					// Delay.
@@ -138,6 +138,7 @@
 				$form.addEventListener('submit', function(event) {
 
 					event.stopPropagation();
+					event.preventDefault();
 
 					// Hide message.
 						$message._hide();
@@ -145,20 +146,37 @@
 					// Disable submit.
 						$submit.disabled = true;
 
-					// Process form.
-						window.setTimeout(function() {
-
-							// Reset form.
+						$.ajax({
+						  type: "POST",
+						  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+						  data: {
+						    'key': 'ILwuNA4aVDtau50vvho8ew',
+						    'message': {
+						      'from_email': 'logan.developeremail@gmail.com',
+						      'to': [
+						          {
+						            'email': 'logan.developeremail@gmail.com',
+						            'name': '',
+						            'type': 'to'
+						          },
+						        ],
+						      'autotext': 'true',
+						      'subject': 'Contact Form',
+						      'html': document.getElementById("email").value
+						    }
+						  }
+						 }).done(function(response) {
+						   // Reset form.
 								$form.reset();
 
 							// Enable submit.
 								$submit.disabled = false;
 
 							// Show message.
-								$message._show('success', '&#10003; Thank you!');
+								$message._show('success', 'Thank you!');
 								//$message._show('failure', 'Something went wrong. Please try again.');
 
-						}, 1000);
+						 });
 
 				});
 

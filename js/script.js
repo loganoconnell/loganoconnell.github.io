@@ -156,5 +156,40 @@ jQuery(document).ready(function($){
     }
   });  
 
+  $("#signup-form").submit(function(event) {
+
+    event.stopPropagation();
+    event.preventDefault();
+
+            $.ajax({
+              type: "POST",
+              url: "https://mandrillapp.com/api/1.0/messages/send.json",
+              data: {
+                'key': 'ILwuNA4aVDtau50vvho8ew',
+                'message': {
+                  'from_email': document.getElementById("your-email").value,
+                  'to': [
+                      {
+                        'email': 'logan.developeremail@gmail.com',
+                        'name': '',
+                        'type': 'to'
+                      },
+                    ],
+                  'autotext': 'true',
+                  'subject': 'Contact Form',
+                  'html': document.getElementById("message").value + " - " + document.getElementById("your-name").value
+                }
+              }
+             }).done(function(response) {
+               // Reset form.
+                $("#signup-form")[0].reset();
+
+              // Enable submit.
+                $(".send").val("Thank you!");
+
+             });
+
+  });
+
   
 });
