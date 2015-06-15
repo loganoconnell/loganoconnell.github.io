@@ -33,11 +33,11 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'../img/background/bg1.jpg': 'center',
-							'../img/background/bg2.jpg': 'center',
-                            '../img/background/bg3.jpg': 'center',
-							'../img/background/bg4.jpg': 'center',
-                            '../img/background/bg5.jpg': 'center'
+							'../img/background/contact-background/bg1.jpg': 'center',
+							'../img/background/contact-background/bg2.jpg': 'center',
+                            '../img/background/contact-background/bg3.jpg': 'center',
+							'../img/background/contact-background/bg4.jpg': 'center',
+                            '../img/background/contact-background/bg5.jpg': 'center'
 						},
 
 					// Delay.

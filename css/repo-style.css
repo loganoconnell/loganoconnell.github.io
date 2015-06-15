@@ -20,7 +20,7 @@ html, body {
     -ms-transform:translateY(-50%);
     -o-transform:translateY(-50%);
     transform:translateY(-50%);
-    background:url('../img/background/repo-start-page.jpg') no-repeat center center;
+    background:url('../img/background/repo-background.jpg') no-repeat center center;
 }
 
 #opacity {

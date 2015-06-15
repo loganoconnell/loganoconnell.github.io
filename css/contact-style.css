@@ -74,15 +74,6 @@
 		width: 100%;
 	}
 
-		@media screen and (max-height: 640px) {
-
-			html, body {
-				height: auto;
-				min-height: 100%;
-			}
-
-		}
-
 	body {
 		display: -moz-flex;
 		display: -webkit-flex;
