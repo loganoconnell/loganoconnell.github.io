@@ -2929,7 +2929,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 4.5em 0 4.5em 0 ;
 		background-color: #ffffff;
 		border-bottom: solid 2px #eeeeee;
 	}
@@ -3579,7 +3579,7 @@
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em ;
 			}
 
 				.wrapper > .inner {
@@ -3591,7 +3591,7 @@
 	@media screen and (max-width: 736px) and (orientation: landscape) {
 
 		.wrapper {
-			padding: 3em 3em 1em 3em ;
+			padding: 3em ;
 		}
 
 	}
@@ -3599,7 +3599,7 @@
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
 		.wrapper {
-			padding: 3em 1.5em 1em 1.5em ;
+			padding: 3em 1.5em 3em 1.5em ;
 		}
 
 	}
@@ -3607,7 +3607,7 @@
 	@media screen and (max-width: 480px) and (orientation: landscape) {
 
 		.wrapper {
-			padding: 2em 1.5em 0.1em 1.5em ;
+			padding: 2em 1.5em 2em 1.5em ;
 		}
 
 	}
@@ -3615,7 +3615,7 @@
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
 		.wrapper {
-			padding: 2em 1em 0.1em 1em ;
+			padding: 2em 1em 2em 1em ;
 		}
 
 	}
