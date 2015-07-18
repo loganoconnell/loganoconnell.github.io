@@ -78,3 +78,19 @@ Description: Use the iPad-style UIActionSheets!
 Author: Logan O'Connell
 Name: PopoverActions8
 
+Package: com.TweaksByLogan.VolumeSlider
+Version: 0.0.1-11
+Architecture: iphoneos-arm
+Maintainer: Logan O'Connell
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs//com.TweaksByLogan.VolumeSlider_0.0.1-11_iphoneos-arm.deb
+Size: 9400
+MD5sum: 0ce7d3510417ade1ceced01b7cd0f6da
+SHA1: 343d1f8ace600443145bf6806ed10752106bbbd3
+SHA256: e8d00cf37124e93db9e2781fab3f8158c72bc088c4488a3e1134baa0d0f178d8
+Section: Tweaks
+Description: A modern, unobtrusive volume slider!
+Author: Logan O'Connell
+Name: VolumeSlider
+
