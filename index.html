@@ -241,9 +241,9 @@
       
         <div class="menu-footer">
         
-            <a href="http://loganoconnell.github.io">Home</a>
-            <a href="http://twitter.com/logandev22" target="_blank">Twitter</a>
-            <a href="http://github.com/loganoconnell" target="_blank">Github</a>
+            <a href="https://loganoconnell.github.io">Home</a>
+            <a href="https://twitter.com/logandev22" target="_blank">Twitter</a>
+            <a href="https://github.com/loganoconnell" target="_blank">Github</a>
         
         </div>
         
@@ -267,6 +267,12 @@
 	<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
 	<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
 	<script src="js/script.js"></script> <!-- All script -->
+  <script>
+    var host = "loganoconnell.github.io"
+    if (window.location.host == host && window.location.protocol != "https:") {
+      window.location.protocol = "https:"
+    }
+  </script>
 
 </body>
 

@@ -12,11 +12,11 @@
 		
         <link rel="shortcut icon" href="../img/icons/favicon.png">
         <link rel="stylesheet" href="../css/contact-style.css"/>
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 	</head>
 	<body>
 		<header id="header">
-			<a href="http://loganoconnell.github.io"><h1>Contact Me</h1></a>
+			<a href="https://loganoconnell.github.io"><h1>Contact Me</h1></a>
 			<p>You can send me (Logan O'Connell) an email by entering your message in the form below, or go to the <a href="http://loganoconnell.github.io">home page</a>.</p>
 		</header>
 
@@ -27,17 +27,23 @@
 
 		<footer id="footer">
             <ul class="icons">
-                <li><a href="http://loganoconnell.github.io/about" class="icon fa-user"><span class="label">About</span></a></li>
-                <li><a href="http://loganoconnell.github.io/work" class="icon fa-suitcase"><span class="label">Work</span></a></li>
-                <li><a href="http://twitter.com/logandev22" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="http://github.com/loganoconnell" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://loganoconnell.github.io/about" class="icon fa-user"><span class="label">About</span></a></li>
+                <li><a href="https://loganoconnell.github.io/work" class="icon fa-suitcase"><span class="label">Work</span></a></li>
+                <li><a href="https://twitter.com/logandev22" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://github.com/loganoconnell" class="icon fa-github"><span class="label">GitHub</span></a></li>
 			</ul>
 			<ul class="copyright">
 				<li>&copy; 2015 Logan O'Connell</li>
 			</ul>
 		</footer>
 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="../js/contact-script.js"></script>
+		<script>
+			var host = "loganoconnell.github.io"
+			if (window.location.host == host && window.location.protocol != "https:") {
+ 				window.location.protocol = "https:"
+			}
+		</script>
 	</body>
 </html>

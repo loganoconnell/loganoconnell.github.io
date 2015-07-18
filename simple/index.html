@@ -23,9 +23,9 @@
 
 			<div id="links">
 
-				<a href="http://loganoconnell.github.io/about">About</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-				<a href="http://loganoconnell.github.io/contact">Contact</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-				<a href="http://loganoconnell.github.io/work">Work</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
+				<a href="https://loganoconnell.github.io/about">About</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+				<a href="https://loganoconnell.github.io/contact">Contact</a> &nbsp;&nbsp; | &nbsp;&nbsp;
+				<a href="https://loganoconnell.github.io/work">Work</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
 				<a href="https://twitter.com/logandev22">Twitter</a> &nbsp;&nbsp; | &nbsp;&nbsp; 
 				<a href="https://github.com/loganoconnell">GitHub</a>
 
@@ -37,8 +37,14 @@
 
         </div>
 
-    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 		<script src="../js/simple-script.js"></script>
+		<script>
+			var host = "loganoconnell.github.io"
+			if (window.location.host == host && window.location.protocol != "https:") {
+ 				window.location.protocol = "https:"
+			}
+		</script>
 	</body>
 </html>

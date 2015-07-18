@@ -12,14 +12,14 @@
 		
         <link rel="shortcut icon" href="../img/icons/favicon.png">
 		<link rel="stylesheet" href="../css/work-style.css"/>
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 	</head>
 	<body id="top">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="content">
-					<h1><a href="http://loganoconnell.github.io">My Work</a></h1>
+					<h1><a href="https://loganoconnell.github.io">My Work</a></h1>
 					<p>Hi! I'm Logan O'Connell, a 15 year-old<br />
    					Software Developer who has experience<br />
    					with many programming languages and<br />
@@ -61,18 +61,24 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="http://loganoconnell.github.io/about" class="icon fa-user"><span class="label">About</span></a></li>
-                    <li><a href="http://loganoconnell.github.io/contact" class="icon fa-envelope"><span class="label">Contact</span></a></li>
-                    <li><a href="http://twitter.com/logandev22" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="http://github.com/loganoconnell" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://loganoconnell.github.io/about" class="icon fa-user"><span class="label">About</span></a></li>
+                    <li><a href="https://loganoconnell.github.io/contact" class="icon fa-envelope"><span class="label">Contact</span></a></li>
+                    <li><a href="https://twitter.com/logandev22" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://github.com/loganoconnell" class="icon fa-github"><span class="label">Github</span></a></li>
 				</ul>
 				<p class="copyright">&copy; 2015 Logan O'Connell</p>
 			</footer>
 
 		<!-- Scripts -->
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 			<script src="../js/work-script.js"></script>
+			<script>
+				var host = "loganoconnell.github.io"
+				if (window.location.host == host && window.location.protocol != "https:") {
+ 					window.location.protocol = "https:"
+				}
+			</script>
 
 	</body>
 </html>

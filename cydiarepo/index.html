@@ -22,7 +22,7 @@
             <div id="content">
                 <div id="header">
 
-                    <a href="http://loganoconnell.github.io">
+                    <a href="https://loganoconnell.github.io">
                         <img src="../cydiarepo/CydiaIcon.png"/>
                     </a>
                 </div>
@@ -32,11 +32,18 @@
                     <span>Cydia Repository</span>
                 </h1>
                 <hr />
-                <h2>You can add this repo to your Cydia sources.</h2>
+                <h2><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://loganoconnell.github.io/cydiarepo">You can add this repo to your Cydia sources.</a></h2>
             
             </div>
         </div>
     </div>
+
+    <script>
+        var host = "loganoconnell.github.io"
+        if (window.location.host == host && window.location.protocol != "https:") {
+            window.location.protocol = "https:"
+        }
+    </script>
 
 </body>
 
