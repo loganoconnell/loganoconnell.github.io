@@ -79,16 +79,16 @@ Author: Logan O'Connell
 Name: PopoverActions8
 
 Package: com.TweaksByLogan.VolumeSlider
-Version: 0.0.1-11
+Version: 0.0.1-21
 Architecture: iphoneos-arm
 Maintainer: Logan O'Connell
 Installed-Size: 76
 Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.VolumeSlider_0.0.1-11_iphoneos-arm.deb
-Size: 9400
-MD5sum: 0ce7d3510417ade1ceced01b7cd0f6da
-SHA1: 343d1f8ace600443145bf6806ed10752106bbbd3
-SHA256: e8d00cf37124e93db9e2781fab3f8158c72bc088c4488a3e1134baa0d0f178d8
+Filename: debs//com.TweaksByLogan.VolumeSlider_0.0.1-21_iphoneos-arm.deb
+Size: 10358
+MD5sum: 298f74cabf3ccafcc4fe499b7b3bb593
+SHA1: 1c79c5c842b1c4af16bab416a667cd23d43c1558
+SHA256: f3b98961659e6738f1541989b5281899cf4f0bc13a179c1781cf969ab51b55e3
 Section: Tweaks
 Description: A modern, unobtrusive volume slider!
 Author: Logan O'Connell
