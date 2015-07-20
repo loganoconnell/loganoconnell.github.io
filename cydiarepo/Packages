@@ -79,18 +79,18 @@ Author: Logan O'Connell
 Name: PopoverActions8
 
 Package: com.TweaksByLogan.ThinnerBanners
-Version: 0.0.1-16
+Version: 0.0.1-17
 Architecture: iphoneos-arm
 Maintainer: Logan O'Connell
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.ThinnerBanners_0.0.1-16_iphoneos-arm.deb
-Size: 2812
-MD5sum: 2dec6f080dc1e0dee6c8b1e0acff5a53
-SHA1: 526d7448b75c599372a0b93c5551915e5c5791da
-SHA256: 06733bb0268ccae183e44a78db0d087e3a404c902e4e1d58cfe99153443773f9
+Filename: debs//com.TweaksByLogan.ThinnerBanners_0.0.1-17_iphoneos-arm.deb
+Size: 2808
+MD5sum: 227cfed1afdd815a549b1a269aa114a6
+SHA1: d60ba6387a9cfd7acdf1fcb68870cfaf39f71007
+SHA256: fa78bc28333a85e2a55782290f8d4274299c492e8a3ca14573ba2bfc93a63eea
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: Banners without the grabber!
 Author: Logan O'Connell
 Name: ThinnerBanners
 
