@@ -78,35 +78,3 @@ Description: Use the iPad-style UIActionSheets!
 Author: Logan O'Connell
 Name: PopoverActions8
 
-Package: com.TweaksByLogan.ThinnerBanners
-Version: 0.0.1-28
-Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.ThinnerBanners_0.0.1-28_iphoneos-arm.deb
-Size: 3544
-MD5sum: 354d714f93645076e00f8ccaf4034a55
-SHA1: 28a2c49e58d7fd85ee1a3216365f40d9218a2b1e
-SHA256: 38decb2986771ac3c5cc807a207295535dd8e7ee7692a890f30458d7c2a5e777
-Section: Tweaks
-Description: Banners without the grabber!
-Author: Logan O'Connell
-Name: ThinnerBanners
-
-Package: com.TweaksByLogan.VolumeSlider
-Version: 0.0.1-44
-Architecture: iphoneos-arm
-Maintainer: Logan O'Connell
-Installed-Size: 200
-Depends: mobilesubstrate
-Filename: debs//com.TweaksByLogan.VolumeSlider_0.0.1-44_iphoneos-arm.deb
-Size: 30258
-MD5sum: 787274b496864f67c3b2fe19f3515690
-SHA1: 510160092eca80262f1a588c7205122b2bc864c1
-SHA256: d16b31911512929f014cd020968af3ab3ced2e34c3ecdf2cbb11c6f57063a849
-Section: Tweaks
-Description: A modern, unobtrusive volume slider!
-Author: Logan O'Connell
-Name: VolumeSlider
-
