@@ -2103,7 +2103,7 @@
 	header p {
 		color: #ffffff;
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0 0;
 	}
 
 	header h2 + p {
@@ -2988,7 +2988,7 @@
 
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
-			padding: 5.1em 0 3.1em 0;
+			padding: 2em 0 2em 0;
 			width: 100%;
 		}
 
@@ -3004,7 +3004,7 @@
 
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
-			padding: 6em 3em;
+			padding: 2em 3em;
 			top: 0;
 			width: 28em;
 		}
@@ -3078,7 +3078,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		.wrapper.style2 {
@@ -3358,7 +3358,7 @@
 		#banner:after {
 			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
@@ -3418,7 +3418,7 @@
 
 	#footer {
 		background: #272833;
-		padding: 6em 0;
+		padding: 2em 0;
 		text-align: center;
 	}
 
@@ -3444,7 +3444,7 @@
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			line-height: 1em;
-			margin: 2em 0 0 0;
+			margin: 0.67em 0 0 0;
 			padding: 0;
 			text-align: center;
 		}
