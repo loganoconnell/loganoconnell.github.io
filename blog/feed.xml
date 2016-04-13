@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <description>This is my personal blog where I explain all the  ridiculously nerdy things about my life.&lt;br/&gt;&lt;br/&gt;I&#39;ll go  through my coding of iOS apps, tweaks, and websites,  along with a bunch of random stuff!
+</description>
+    <link>http://loganoconnell.github.io/blog/</link>
+    <atom:link href="http://loganoconnell.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Apr 2016 22:15:05 -0400</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2016 22:15:05 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>My First Blog Post - My Coding Life</title>
+        <description>&lt;p&gt;So this is where it all begins! I’m excited about this whole thing. I got my blog all configured with &lt;a href=&quot;https://jekyllrb.com&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;&lt;/a&gt; and am ready to go. Now where should I start? Maybe with a little background about me.&lt;/p&gt;
+
+&lt;p&gt;First, I’m a 16 year-old who lives in the United States. I live in a great community, and currently am enrolled in my sophmore year of high school. It’s almost over, thank god. I play basketball, frisbee, and I lift on random days through the week. I’m an active person, always looking for the next adventure to take on. In my free time, I’m usually procrastinating, spending time with people I love, or coding. My friends (especially my girlfriend) and my family all hold a very special place in my heart. Seeing them each day means so much to me, and although I may take it all for granted at times, I always appreciate everything they’ve done for me. They all encourage me and support my odd hobbies and my weird knowledge, and it feels good knowing I have such a strong backing from my family and friends. My girlfriend knows I code, and she supports me more than anyone. She knows how weird I can be, and not many girls would have such a strong love for a guy that spends his free time making apps. Means a lot to have her by my side! So now let’s dive into the important subject, my loving of coding. I’ll tell you how it all started, what I’ve learned, and where I am now. It’s gonna be a looong ride.&lt;/p&gt;
+
+&lt;p&gt;A few years ago, my parents got me my first programming book, &lt;a href=&quot;http://www.amazon.com/Absolute-Beginners-Guide-Portable-Documents-ebook/dp/B003J2RFEK/ref=mt_kindle?_encoding=UTF8&amp;amp;me=&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Absolute Beginner&#39;s Guide to C&lt;/code&gt;&lt;/a&gt;, for Christmas. At first, I read a couple chapters and then gave it up. It had some hard concepts to pick up as a 12 year-old! But a couple months later, sitting in 7th grade class after our standardized testing, I decided to give it a shot again. I had progressed in math just enough to enable me to read this book, and now I was hooked. I became sucked into this book, reading every page and doing every little miny challenge at the end of each chapter. I just loved everything about the idea of creating something through a text editor, and seeing my product come to life in front of me. The entire process of coding just intrigued me, especially how it challenged my brain so much. The problems stumped me sometimes, and that was my favorite. School always came naturally for me, and thus it was ridiculously boring, so coding became my escape. I could challenge myself whenever I wanted to and all I needed was a computer. I plowed through the C book, and made a few small programs in the old TextEdit application on my family’s 2010 iMac.&lt;/p&gt;
+
+&lt;p&gt;From there, I preceded to move on to bigger and better things. In the start, I had always had my eyes focused on iOS development in the near future. I was given an iPhone also for Christmas the same year I got Beginner’s Guide to C, so it was a match made in heaven. I loved the fluent design of iOS, and how each app strictly followed guidelines. Making an iOS app was what I wanted to achieve that year, so I set myself that goal and asked my mom to buy me the &lt;a href=&quot;http://www.amazon.com/Objective-C-Programming-Ranch-Guide-Guides-ebook/dp/B005OR9ND4/ref=mt_kindle?_encoding=UTF8&amp;amp;me=&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Objective-C Programming: The Big Nerd Ranch Guide&lt;/code&gt;&lt;/a&gt; book, as I had figured out that learning the Objective-C programming language was the next required step in fulfilling my goal. Just like the previous book, I tore through this one, even more amazed at the intricacy of coding with objects. You could manage classes, protocols, and many other structures with this language. The Big Nerd Ranch Guide taught me so well, and I relished every word in that book. With Xcode fired up and the command line running in the background, my feeling of giddiness began to I began to live and breathe this language, and came up with new challenges for myself once I had covered all the material in the book.&lt;/p&gt;
+
+&lt;p&gt;Diving into the Cocoa framework for iOS, I realized I may need a bit more help to get to my goal. I decided my best bet was to continue learning from the Big Nerd Ranch and buy the &lt;a href=&quot;http://www.amazon.com/iOS-Programming-Ranch-Guide-Guides-ebook/dp/B00IG8TGZ8/ref=mt_kindle?_encoding=UTF8&amp;amp;me=&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;iOS Programming: The Big Nerd Ranch Guide&lt;/code&gt;&lt;/a&gt; on my iPad Mini. Ever since I bought that iOS Programming book, my life was changed. I was opened up to the world of coding and became entranced in the technology. Following the first tutorial in the book, I created my first app. It was a todo list app called “Declutter”. From the moment that app was finished, I knew coding was what I wanted to do when I grew up.&lt;/p&gt;
+
+&lt;p&gt;To be continued…&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Apr 2016 22:12:00 -0400</pubDate>
+        <link>http://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html</link>
+        <guid isPermaLink="true">http://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
