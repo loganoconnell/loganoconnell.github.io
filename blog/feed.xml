@@ -4,11 +4,40 @@
     <title>Blog</title>
     <description>This is my personal blog where I explain all the  ridiculously nerdy things about my life.&lt;br/&gt;&lt;br/&gt;I&#39;ll go  through my coding of iOS apps, tweaks, and websites,  along with a bunch of random stuff!
 </description>
-    <link>http://loganoconnell.github.io/blog/</link>
-    <atom:link href="http://loganoconnell.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Apr 2016 16:54:39 -0400</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2016 16:54:39 -0400</lastBuildDate>
+    <link>https://loganoconnell.github.io/blog/</link>
+    <atom:link href="https://loganoconnell.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 21 Apr 2016 09:55:20 -0400</pubDate>
+    <lastBuildDate>Thu, 21 Apr 2016 09:55:20 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>My Coding Life - Part 2</title>
+        <description>&lt;p&gt;So in my &lt;a href=&quot;https://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;previous post&lt;/code&gt;&lt;/a&gt; I went into detail of how I had made the transition from having no coding background up until the creation of my first app. Today, I’ll go from there up to the present. Here we go!&lt;/p&gt;
+
+&lt;p&gt;That first app “Declutter” was amazing to me, but it wasn’t exactly the most fine-tuned app. There were issues, and I hacked my way around them in the app. Still, it was a working app, and I was very proud of my work. I purchased the Apple Developer membership and read online tutorials until I managed to get my app uploaded and submitted. It passed, and was uploaded on the App Store. The amount of pride I had in that was crazy. I loved the process and everything that it brought, I fell in love with it. “Declutter” was bought by my family and friends (I had put it up for $0.99, and eventually made it free), and although I didn’t make much money, I was not discouraged. The entire experience of uploading an app was worth much more to me than the couple of bucks I made from it.&lt;/p&gt;
+
+&lt;p&gt;One prominant issue on release of the app was I had targetted iOS 7 and up, but I had somehow forgotten to remove my linkage of the &lt;code class=&quot;highlighter-rouge&quot;&gt;Metal&lt;/code&gt; framework. The &lt;code class=&quot;highlighter-rouge&quot;&gt;Metal&lt;/code&gt; framework was only for devices running iOS 8 and up, which created a problem. Users who were on iOS 7 (which was most of the population at this point in time) recieved a crash when launching the app because I was linking a framework that was not available on their device. My mom’s friend actually found this out for me, and I submitted a patch as quickly as possible. This situation helped me learn the importance of testing all possible case scenarios, and I understood what I had to do the next time.&lt;/p&gt;
+
+&lt;p&gt;From there, I became a little lost. I dabbled in a few things, but I left coding alive but on the back burner for a little bit. I made an iOS game based on one the kids in my school liked, and that turned out well but wasn’t appoved by the App Store for copyright reasons. I had also begun to get more into web design, and I taught myself that language before furthering my knowledge in a web design class at my high school. I became extremely familiar with &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;CSS&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;JS&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;jQuery&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;PHP&lt;/code&gt;. Teaching myself all these different languages was a challenge as well, and with the mental roadblock I was in with iOS development, this allowed me to expand my knowledge of the coding world. I created websites on my own and experimented with different jQuery methods to see what looked best. All this self-teaching took lots of documentation reading, and I began to understand how it all worked more and more.&lt;/p&gt;
+
+&lt;p&gt;With my website knowledge coming together, I made a few sites and uploaded them to the web with a &lt;code class=&quot;highlighter-rouge&quot;&gt;Github Pages&lt;/code&gt; account. It was free and ridiculously easy to do. You can see what I’ve done with this site at &lt;a href=&quot;https://loganoconnell.github.io&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;loganoconnell.github.io&lt;/code&gt;&lt;/a&gt;. I’m proud of the websites I’ve made and the templates I’ve edited to create that website, and I think it’s easy to navigate if someone wants to look through my work.&lt;/p&gt;
+
+&lt;p&gt;Once my addiction to web design began to fade, I turned back to iOS, but now in a new light. I had jailbroken my phone, and was fascinated with the inner workings of &lt;code class=&quot;highlighter-rouge&quot;&gt;Cydia&lt;/code&gt; (the jailbroken version of the App Store). I downloaded tons of tweaks and examined them, trying to figure out how they were made. Then I did some searching, and I found a tutorial of how to set up Theos, the jailbroken tweak development suite, at the &lt;a href=&quot;http://iphonedevwiki.net/index.php/Theos/Setup&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;iPhoneDevWiki&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The tweaks are written in a language called &lt;code class=&quot;highlighter-rouge&quot;&gt;Logos&lt;/code&gt;, which is a subset of Objective-C. It was a great place for me to test my development skills and have free reign to change anything. Because when you develop tweaks, you have the freedom to change every single little aspect of your iOS device, and there are no Apple-imposed restrictions. From the look of the icons on your home screen to the color of the status bar, nothing evades the power of tweak making. In another tutorial I’ll go in depth into how it actually works, but it’s amazing. Being able to load your own code into your phone and being able to change anything is awesome. I looked through tons of open-sourced tweaks and began to learn how a quality tweak was made (the jailbroken community is big on open-sourcing). I created tons of tweaks, and they did very well. You upload the tweaks to a “repository”, which holds a wealth of tweaks for people to download from Cydia. I uploaded them to &lt;a href=&quot;http://thebigboss.org/hosting-repository-cydia&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BigBoss&lt;/code&gt;&lt;/a&gt;, a well-known repository that holds the majority of tweaks in the community. I’ll go into depth of how that all turned out in the final installment of my life story.&lt;/p&gt;
+
+&lt;p&gt;To be continued…&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Apr 2016 08:56:00 -0400</pubDate>
+        <link>https://loganoconnell.github.io/blog/jekyll/update/2016/04/21/my-coding-life-part-2.html</link>
+        <guid isPermaLink="true">https://loganoconnell.github.io/blog/jekyll/update/2016/04/21/my-coding-life-part-2.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>My First Blog Post - My Coding Life</title>
@@ -23,10 +52,12 @@
 &lt;p&gt;Diving into the Cocoa framework for iOS, I realized I may need a bit more help to get to my goal. I decided my best bet was to continue learning from the Big Nerd Ranch and buy the &lt;a href=&quot;http://www.amazon.com/iOS-Programming-Ranch-Guide-Guides-ebook/dp/B00IG8TGZ8/ref=mt_kindle?_encoding=UTF8&amp;amp;me=&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;iOS Programming: The Big Nerd Ranch Guide&lt;/code&gt;&lt;/a&gt; on my iPad Mini. Ever since I bought that iOS Programming book, my life was changed. I was opened up to the world of coding and became entranced in the technology. Following the first tutorial in the book, I created my first app. It was a todo list app called “Declutter”. From the moment that app was finished, I knew coding was what I wanted to do when I grew up.&lt;/p&gt;
 
 &lt;p&gt;To be continued…&lt;/p&gt;
+
+&lt;p&gt;(This post was continued in &lt;a href=&quot;https://loganoconnell.github.io/blog/jekyll/update/2016/04/21/my-coding-life-part-2.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;part 2&lt;/code&gt;&lt;/a&gt;)&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Apr 2016 22:12:00 -0400</pubDate>
-        <link>http://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html</link>
-        <guid isPermaLink="true">http://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html</guid>
+        <link>https://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html</link>
+        <guid isPermaLink="true">https://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html</guid>
         
         
         <category>jekyll</category>
