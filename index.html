@@ -33,7 +33,12 @@
 			</div>
 		</div>
 
-		<!-- <script src="js/script.js"></script>
+		<!-- <script src="js/script.js"></script> -->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 		<script>
 			if (window.location.host == "loganoconnell.me" && window.location.protocol != "https:") {
  				window.location.protocol = "https:";
@@ -47,6 +52,6 @@
 
 			ga('create', 'UA-62823036-2', 'auto');
 			ga('send', 'pageview');
-	</script> -->
+		</script>
 	</body>
 </html>
