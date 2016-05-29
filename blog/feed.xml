@@ -4,26 +4,11 @@
     <title>Blog</title>
     <description>This is my personal blog where I explain all the  ridiculously nerdy things about my life.&lt;br/&gt;&lt;br/&gt;I&#39;ll go  through my coding of iOS apps, tweaks, and websites,  along with a bunch of random stuff!
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 May 2016 13:47:19 -0400</pubDate>
-    <lastBuildDate>Sun, 29 May 2016 13:47:19 -0400</lastBuildDate>
+    <link>https://loganoconnell.github.io/blog/</link>
+    <atom:link href="https://loganoconnell.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 29 May 2016 13:50:50 -0400</pubDate>
+    <lastBuildDate>Sun, 29 May 2016 13:50:50 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
-    
-      <item>
-        <title>My Coding Life - Part 3</title>
-        <description>&lt;p&gt;We left off at the BigBoss repository right? Well that’s a good topic anyways. I started submitting tweaks, and they started off pretty bad. Some were basically examples off of GitHub, but they got progressively better. I learned new ways to enhance my tweaks, and became a little better everyday. The thing is, there’s no guide or tutorial when developing tweaks. You learn from open-source code or on your own. I bookmarked thousands of open-sourced tweaks so I could learn a little bit, and my tweaks grew along with the knowledge. SimpleNC (although free) was my first big hitter, with over 100,000 downloads. I was just completely blown away at its success. That success drove me to create new tweaks, and paid ones. I was tempted to see if I could code the things I love and make money off of it. I made a couple paid tweaks and amassed probably around 2K. Then I met a friend online, and we began to talk about creating a tweak (eventually called Andrios) that&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 May 2016 10:15:00 -0400</pubDate>
-        <link>/jekyll/update/2016/05/26/my-coding-life-part-3.html</link>
-        <guid isPermaLink="true">/jekyll/update/2016/05/26/my-coding-life-part-3.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
     
       <item>
         <title>My Coding Life - Part 2</title>
@@ -44,8 +29,8 @@
 &lt;p&gt;To be continued…&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Apr 2016 08:56:00 -0400</pubDate>
-        <link>/jekyll/update/2016/04/21/my-coding-life-part-2.html</link>
-        <guid isPermaLink="true">/jekyll/update/2016/04/21/my-coding-life-part-2.html</guid>
+        <link>https://loganoconnell.github.io/blog/jekyll/update/2016/04/21/my-coding-life-part-2.html</link>
+        <guid isPermaLink="true">https://loganoconnell.github.io/blog/jekyll/update/2016/04/21/my-coding-life-part-2.html</guid>
         
         
         <category>jekyll</category>
@@ -71,8 +56,8 @@
 &lt;p&gt;(This post was continued in &lt;a href=&quot;https://loganoconnell.github.io/blog/jekyll/update/2016/04/21/my-coding-life-part-2.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;part 2&lt;/code&gt;&lt;/a&gt;)&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Apr 2016 22:12:00 -0400</pubDate>
-        <link>/jekyll/update/2016/04/12/my-first-blog-post.html</link>
-        <guid isPermaLink="true">/jekyll/update/2016/04/12/my-first-blog-post.html</guid>
+        <link>https://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html</link>
+        <guid isPermaLink="true">https://loganoconnell.github.io/blog/jekyll/update/2016/04/12/my-first-blog-post.html</guid>
         
         
         <category>jekyll</category>
