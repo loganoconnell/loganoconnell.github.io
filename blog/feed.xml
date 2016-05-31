@@ -6,9 +6,32 @@
 </description>
     <link>https://loganoconnell.github.io/blog/</link>
     <atom:link href="https://loganoconnell.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 May 2016 13:50:50 -0400</pubDate>
-    <lastBuildDate>Sun, 29 May 2016 13:50:50 -0400</lastBuildDate>
+    <pubDate>Mon, 30 May 2016 20:23:22 -0400</pubDate>
+    <lastBuildDate>Mon, 30 May 2016 20:23:22 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>My Coding Life - Part 3</title>
+        <description>&lt;p&gt;We left off at the BigBoss repository right? Well that’s a good topic anyways. I started submitting tweaks, and they started off pretty bad. Some were basically examples off of GitHub, but they got progressively better. I learned new ways to enhance my tweaks, and became a little better everyday. The thing is, there’s no guide or tutorial when developing tweaks. You learn from open-source code or on your own. I bookmarked thousands of open-sourced tweaks so I could learn a little bit, and my tweaks grew along with the knowledge. &lt;a href=&quot;http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=simplencDp&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;SimpleNC&lt;/code&gt;&lt;/a&gt; (although free) was my first big hitter, with over 100,000 downloads. I was just completely blown away at its success. That success drove me to create new tweaks, and paid ones. I was tempted to see if I could code the things I love and make money off of it. I made a couple paid tweaks and amassed probably around 2K. Then I met a friend online, and we began to talk about creating a tweak (eventually called &lt;a href=&quot;http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=andriosDp&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Andrios&lt;/code&gt;&lt;/a&gt;) that would mimic the Android UI on a jailbroken iPhone. It started slow, but eventually steam-rolled into something much bigger. We got a massive following on &lt;a href=&quot;https://twitter.com/logandev22&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Twitter&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://www.reddit.com/user/loganoco22&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Reddit&lt;/code&gt;&lt;/a&gt;, and the hype for our project grew in the jailbroken community.&lt;/p&gt;
+
+&lt;p&gt;We were excited for our release and worked tirelessly for around 2-3 months everyday to polish everything and squeeze all the bugs out. It took on a life of its own, and I’ll never forget being a part of it. Finally, we released it when the hype was at a peak, and the result was incredible. The project made a combined 12K, and we split the profits down the middle as we handled all of the work ourselves, from the icons to the advertising and the like. 6K was now in my pocket, and I was in love with coding more than ever. The community had loved the tweak in its entirety, and I had never been more happy. It was a surreal feeling knowing that I could make something and have it make such an impact.&lt;/p&gt;
+
+&lt;p&gt;I quickly followed Andrios with more and more tweaks, and I ended up wracking up around a total of 11K in jailbroken development money. With that, I was able to buy a very nice used car and I have never been more proud of something. I was licsensed this weekend and will be taking it to school on my own for the first time tomorrow. The entire experience was incredible and I will never forget the great reception the jailbreak community gave me as a new developer.&lt;/p&gt;
+
+&lt;p&gt;With that phase over and the jailbreak in a lull for the moment, I have moved onto other things. I’ve made two iOS apps recently, and have been fiddling around with more web-based development. iOS is always where my heart will be, as nothing has made me feel so accomplished.&lt;/p&gt;
+
+&lt;p&gt;Well, that’s my story in a nutshell. If you’d like to visit my GitHub and check out some of my jailbreak tweaks and iOS apps, go &lt;a href=&quot;https://github.com/loganoconnell&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;here&lt;/code&gt;&lt;/a&gt;. All my tweaks can be found on the &lt;a href=&quot;http://apt.thebigboss.org/developer-packages.php?name=SimpleNC&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BigBoss repo&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 May 2016 10:15:00 -0400</pubDate>
+        <link>https://loganoconnell.github.io/blog/jekyll/update/2016/05/26/my-coding-life-part-3.html</link>
+        <guid isPermaLink="true">https://loganoconnell.github.io/blog/jekyll/update/2016/05/26/my-coding-life-part-3.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>My Coding Life - Part 2</title>
