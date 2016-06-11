@@ -6,8 +6,8 @@
 </description>
     <link>https://loganoconnell.github.io/blog/</link>
     <atom:link href="https://loganoconnell.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 May 2016 20:23:22 -0400</pubDate>
-    <lastBuildDate>Mon, 30 May 2016 20:23:22 -0400</lastBuildDate>
+    <pubDate>Sat, 11 Jun 2016 12:50:08 -0400</pubDate>
+    <lastBuildDate>Sat, 11 Jun 2016 12:50:08 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -50,6 +50,8 @@
 &lt;p&gt;The tweaks are written in a language called &lt;code class=&quot;highlighter-rouge&quot;&gt;Logos&lt;/code&gt;, which is a subset of Objective-C. It was a great place for me to test my development skills and have free reign to change anything. Because when you develop tweaks, you have the freedom to change every single little aspect of your iOS device, and there are no Apple-imposed restrictions. From the look of the icons on your home screen to the color of the status bar, nothing evades the power of tweak making. In another tutorial I’ll go in depth into how it actually works, but it’s amazing. Being able to load your own code into your phone and being able to change anything is awesome. I looked through tons of open-sourced tweaks and began to learn how a quality tweak was made (the jailbroken community is big on open-sourcing). I created tons of tweaks, and they did very well. You upload the tweaks to a “repository”, which holds a wealth of tweaks for people to download from Cydia. I uploaded them to &lt;a href=&quot;http://thebigboss.org/hosting-repository-cydia&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BigBoss&lt;/code&gt;&lt;/a&gt;, a well-known repository that holds the majority of tweaks in the community. I’ll go into depth of how that all turned out in the final installment of my life story.&lt;/p&gt;
 
 &lt;p&gt;To be continued…&lt;/p&gt;
+
+&lt;p&gt;(This post was continued in &lt;a href=&quot;https://loganoconnell.github.io/blog/jekyll/update/2016/05/26/my-coding-life-part-3.html&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;part 3&lt;/code&gt;&lt;/a&gt;)&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Apr 2016 08:56:00 -0400</pubDate>
         <link>https://loganoconnell.github.io/blog/jekyll/update/2016/04/21/my-coding-life-part-2.html</link>
