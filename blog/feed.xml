@@ -2,13 +2,142 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog</title>
-    <description>This is my personal blog where I explain all the  ridiculously nerdy things about my life.&lt;br/&gt;&lt;br/&gt;I&#39;ll go  through my coding of iOS apps, tweaks, and websites,  along with a bunch of random stuff!
+    <description>Just a 17 year old with a love for tech projects.&lt;br/&gt;&lt;br/&gt; My coding of iOS apps, tweaks, and websites,  along with the assembly of electronics projects can be found here!
 </description>
     <link>https://loganoconnell.github.io/blog/</link>
     <atom:link href="https://loganoconnell.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 11 Jun 2016 12:50:08 -0400</pubDate>
-    <lastBuildDate>Sat, 11 Jun 2016 12:50:08 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <pubDate>Sat, 14 Jan 2017 15:13:38 -0500</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2017 15:13:38 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Creating a Magic Mirror with a Raspberry Pi</title>
+        <description>&lt;p&gt;Hi there! Recently I dove into one of my bigger projects, which involved creating a “magic” mirror with the help of a Raspberry Pi (a popular System-On-A-Chip, more details &lt;a href=&quot;https://www.raspberrypi.org&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Now blog’s aren’t exactly my thing, but I’m trying to get better. Seeing as how this may be awful, feel free to check out the guide that I followed &lt;a href=&quot;http://cyber-omelette.blogspot.co.uk/2016/12/smart-mirror.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;before-and-after&quot;&gt;Before and After:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/367A3rx.jpg&quot; alt=&quot;Before assembly&quot; style=&quot;width: 49%&quot; /&gt;
+&lt;img src=&quot;https://i.reddituploads.com/11033303ca494f58820ed03b0edf2ef2?fit=max&amp;amp;h=1536&amp;amp;w=1536&amp;amp;s=0c842b1ce6a55b29890dd3c44f62b081&quot; alt=&quot;Finished project picture&quot; style=&quot;width: 49%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;materials&quot;&gt;Materials:&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Monitor&lt;/strong&gt;, I opted for a 22-inch Dell (~$100)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Picture frame&lt;/strong&gt; that will fit the monitor (~$20, found at A.C. Moore)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gila Privacy Window Film&lt;/strong&gt; (~$30, can be found &lt;a href=&quot;http://a.co/2uN11PE&quot;&gt;here&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Raspberry Pi&lt;/strong&gt; (~$50, I purchased the kit &lt;a href=&quot;http://a.co/70vupj2&quot;&gt;here&lt;/a&gt; because it comes with a case and power supply too. You will also need a SD card, if you don’t have one lying around I purchased &lt;a href=&quot;http://a.co/eB4Cs5I&quot;&gt;this&lt;/a&gt; recently and it worked well)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Various other materials&lt;/strong&gt; including: electrical tape, black posterboard, wood 2x4, wood screws, double-sided tape or glue, power strip&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Various tools&lt;/strong&gt; including: alternative computer to program Pi from, scissors, utilty knife, saw, tape measure, squeegee, spray bottle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hardware-assembly&quot;&gt;Hardware Assembly:&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h4 id=&quot;part-1---the-glass&quot;&gt;Part 1 - The glass&lt;/h4&gt;
+&lt;p&gt;First, I took the glass from the picture frame and applied the privacy film to it. Fill the spray bottle with a mixture of water and soap to create a cleaning mixture. Then spray and clean both sides of the glass, you don’t want any fingerprints showing through! Take the Gila film and use two pieces of tape to peel the protective layer off. Next, spray both the side of the film that was protected and the side of the glass you will apply it to. Once they’re decently moist, apply them together and use the squeegee to remove any air pockets. Finally, use the utility knife to trim the excess sides of film from around the glass! This may take a few tries of practice to get the film removed enough so it can fit back into the frame, but the privacy film comes in 15ft strips so you’ll have plenty of error room to work with. Once back in the frame, you have essentially a two-way!&lt;/p&gt;
+
+&lt;h4 id=&quot;part-2---the-monitor&quot;&gt;Part 2 - The monitor&lt;/h4&gt;
+&lt;p&gt;In this segment we will prepare everything for the monitor and place it where it needs to be. For this section, I’d recommend assembling everything with the frame face down, so the back of the glass is to you. First, remove the bezel from your monitor. It’s a whole mini-project in it’s own, but something every Magic Mirror-maker must go through. A good video guide can be found &lt;a href=&quot;https://www.youtube.com/watch?v=SBOCC6qWIlA&quot;&gt;here&lt;/a&gt;. Once the bezel is removed place the monitor face down on the glass in the center. Fill in the left over space on the sides with trimmed black posterboard, and secure the posterboard to the frame or monitor with the black electrical tape.&lt;/p&gt;
+
+&lt;h4 id=&quot;part-3---the-wood&quot;&gt;Part 3 - The wood&lt;/h4&gt;
+&lt;p&gt;Once this is finished you must secure the monitor the the picture frame using the wood 2x4. This will vary for all projects based on how it will be mounted and the sizes of the frame and monitor. The general idea of what I did was to first cut two small beams about the width of the frame. I sawed a slit in the wood beams just enough to catch the end of the monitor frame, and when placed on the top and bottom of the frame the monitor would catch the slit and stay put. The wood beams must be nailed into the frame with the wood screws, pinning them monitor against the glass.&lt;/p&gt;
+
+&lt;h3 id=&quot;wiring-and-software&quot;&gt;Wiring and Software:&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;h4 id=&quot;part-1---the-connections&quot;&gt;Part 1 - The connections&lt;/h4&gt;
+&lt;p&gt;Now here is where we must attach the Raspberry Pi to the back of the frame and run all the wire connections. I would recommend the use of &lt;a href=&quot;http://a.co/iEuJswb&quot;&gt;3M double-sided adhesive tape&lt;/a&gt; to stick the Raspberry Pi to the frame and stick other wires in place, I live by this stuff and use it all over my room. Once the computer’s in place, wire up the Pi and monitor’s power to the power strip, running the power strip cord out of the frame. Then connect the HDMI cord of them monitor to the Pi’s HDMI output (I had to use a &lt;a href=&quot;http://a.co/i7gLjvY&quot;&gt;VGA to HDMI converter&lt;/a&gt;). To help everything stay secured, zip-tie down the wires!&lt;/p&gt;
+
+&lt;h4 id=&quot;part-2---the-software&quot;&gt;Part 2 - The software&lt;/h4&gt;
+&lt;p&gt;First, you need to get a running version of Raspian (the Pi’s default OS) on the SD card. I’d recommend using &lt;a href=&quot;http://www.pibakery.org&quot;&gt;PiBakery&lt;/a&gt; to customize your Raspbian like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Iy2C83k.png&quot; alt=&quot;PiBakery setup&quot; style=&quot;width: 200px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you should be able to log into your Pi right from the command line and get started. Try this with:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh pi@mirrorpi.local
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once logged your Pi, let’s get the Magic Mirror software up and running. We’ll first run the installer for the &lt;a href=&quot;https://github.com/MichMich/MagicMirror&quot;&gt;MagicMirror GitHub project&lt;/a&gt; and then configure it.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh | bash
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There are many configuration options you can add to your setup. Let’s walk through a few of them (more can be found &lt;a href=&quot;https://github.com/MichMich/MagicMirror/wiki/Configuring-the-Raspberry-Pi&quot;&gt;here&lt;/a&gt;).&lt;/p&gt;
+&lt;h5 id=&quot;rotate-the-screen-in-the-case-of-a-vertical-monitor-and-hide-the-rainbow-startup-cube&quot;&gt;Rotate the screen (in the case of a vertical monitor) and hide the rainbow startup cube&lt;/h5&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /boot/config.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then add the following lines to the bottom:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;display_rotate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1
+&lt;span class=&quot;nv&quot;&gt;avoid_warnings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And reboot&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo reboot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;auto-hiding-the-mouse-cursor&quot;&gt;Auto-hiding the Mouse Cursor&lt;/h5&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install unclutter
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;part-3---auto-starting-the-magic-mirror&quot;&gt;Part 3 - Auto-starting the Magic Mirror&lt;/h4&gt;
+&lt;p&gt;Ideally, we want this Electron app to launch everytime we reboot the Pi, so let’s configure that with the PM2 production process manager for Node.JS applications. Adapted from &lt;a href=&quot;https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror&quot;&gt;the GitHub project&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo npm install -g pm2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Load PM2 on boot (execute the command it tells you to after this is run)&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pm2 startup
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Next, let’s create a script for PM2 to start the mirror&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~
+nano mm.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And enter in the file:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/MagicMirror
+&lt;span class=&quot;nv&quot;&gt;DISPLAY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;:0 npm start
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then run &lt;code class=&quot;highlighter-rouge&quot;&gt;chmod&lt;/code&gt; for executable access to the script and start the mirror&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chmod +x mm.sh
+pm2 start mm.sh
+pm2 save
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;the-end&quot;&gt;The End&lt;/h3&gt;
+&lt;p&gt;And that’s it, I hope you enjoy the Magic Mirror you created and this tutorial was helpful! Be sure to toss me a follow on &lt;a href=&quot;https://twitter.com/logandev22&quot;&gt;my Twitter&lt;/a&gt; if this helped you out!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Jan 2017 14:08:00 -0500</pubDate>
+        <link>https://loganoconnell.github.io/blog/jekyll/update/2017/01/14/creating-a-magic-mirror-with-a-raspberry-pi.html</link>
+        <guid isPermaLink="true">https://loganoconnell.github.io/blog/jekyll/update/2017/01/14/creating-a-magic-mirror-with-a-raspberry-pi.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>My Coding Life - Part 3</title>
@@ -70,7 +199,7 @@
 
 &lt;p&gt;First, I’m a 16 year-old who lives in the United States. I live in a great community, and currently am enrolled in my sophmore year of high school. It’s almost over, thank god. I play basketball, frisbee, and I lift on random days through the week. I’m an active person, always looking for the next adventure to take on. In my free time, I’m usually procrastinating, spending time with people I love, or coding. My friends (especially my girlfriend) and my family all hold a very special place in my heart. Seeing them each day means so much to me, and although I may take it all for granted at times, I always appreciate everything they’ve done for me. They all encourage me and support my odd hobbies and my weird knowledge, and it feels good knowing I have such a strong backing from my family and friends. My girlfriend knows I code, and she supports me more than anyone. She knows how weird I can be, and not many girls would have such a strong love for a guy that spends his free time making apps. Means a lot to have her by my side! So now let’s dive into the important subject, my loving of coding. I’ll tell you how it all started, what I’ve learned, and where I am now. It’s gonna be a looong ride.&lt;/p&gt;
 
-&lt;p&gt;A few years ago, my parents got me my first programming book, &lt;a href=&quot;http://www.amazon.com/Absolute-Beginners-Guide-Portable-Documents-ebook/dp/B003J2RFEK/ref=mt_kindle?_encoding=UTF8&amp;amp;me=&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Absolute Beginner&#39;s Guide to C&lt;/code&gt;&lt;/a&gt;, for Christmas. At first, I read a couple chapters and then gave it up. It had some hard concepts to pick up as a 12 year-old! But a couple months later, sitting in 7th grade class after our standardized testing, I decided to give it a shot again. I had progressed in math just enough to enable me to read this book, and now I was hooked. I became sucked into this book, reading every page and doing every little miny challenge at the end of each chapter. I just loved everything about the idea of creating something through a text editor, and seeing my product come to life in front of me. The entire process of coding just intrigued me, especially how it challenged my brain so much. The problems stumped me sometimes, and that was my favorite. School always came naturally for me, and thus it was ridiculously boring, so coding became my escape. I could challenge myself whenever I wanted to and all I needed was a computer. I plowed through the C book, and made a few small programs in the old TextEdit application on my family’s 2010 iMac.&lt;/p&gt;
+&lt;p&gt;A few years ago, my parents got me my first programming book, &lt;a href=&quot;http://www.amazon.com/Absolute-Beginners-Guide-Portable-Documents-ebook/dp/B003J2RFEK/ref=mt_kindle?_encoding=UTF8&amp;amp;me=&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The Absolute Beginner's Guide to C&lt;/code&gt;&lt;/a&gt;, for Christmas. At first, I read a couple chapters and then gave it up. It had some hard concepts to pick up as a 12 year-old! But a couple months later, sitting in 7th grade class after our standardized testing, I decided to give it a shot again. I had progressed in math just enough to enable me to read this book, and now I was hooked. I became sucked into this book, reading every page and doing every little miny challenge at the end of each chapter. I just loved everything about the idea of creating something through a text editor, and seeing my product come to life in front of me. The entire process of coding just intrigued me, especially how it challenged my brain so much. The problems stumped me sometimes, and that was my favorite. School always came naturally for me, and thus it was ridiculously boring, so coding became my escape. I could challenge myself whenever I wanted to and all I needed was a computer. I plowed through the C book, and made a few small programs in the old TextEdit application on my family’s 2010 iMac.&lt;/p&gt;
 
 &lt;p&gt;From there, I preceded to move on to bigger and better things. In the start, I had always had my eyes focused on iOS development in the near future. I was given an iPhone also for Christmas the same year I got Beginner’s Guide to C, so it was a match made in heaven. I loved the fluent design of iOS, and how each app strictly followed guidelines. Making an iOS app was what I wanted to achieve that year, so I set myself that goal and asked my mom to buy me the &lt;a href=&quot;http://www.amazon.com/Objective-C-Programming-Ranch-Guide-Guides-ebook/dp/B005OR9ND4/ref=mt_kindle?_encoding=UTF8&amp;amp;me=&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Objective-C Programming: The Big Nerd Ranch Guide&lt;/code&gt;&lt;/a&gt; book, as I had figured out that learning the Objective-C programming language was the next required step in fulfilling my goal. Just like the previous book, I tore through this one, even more amazed at the intricacy of coding with objects. You could manage classes, protocols, and many other structures with this language. The Big Nerd Ranch Guide taught me so well, and I relished every word in that book. With Xcode fired up and the command line running in the background, my feeling of giddiness began to I began to live and breathe this language, and came up with new challenges for myself once I had covered all the material in the book.&lt;/p&gt;
 
