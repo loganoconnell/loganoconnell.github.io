@@ -204,7 +204,7 @@ li.repo h3 {
 }
 
 .repo.javascript:after {
-  border-right-color: #333;
+  border-right-color: #F1E05A;
 }
 
 .repo.scala:after {
@@ -216,11 +216,11 @@ li.repo h3 {
 }
 
 .repo.java:after {
-  border-right-color: #cc8300;
+  border-right-color: #B07219;
 }
 
 .repo.python:after {
-  border-right-color: #6aad2d;
+  border-right-color: #3572A5;
 }
 
 .repo.php:after {
@@ -245,4 +245,28 @@ li.repo h3 {
 
 .repo.arduino:after {
   border-right-color: #BD79D1;
+}
+
+.repo.objective-c:after {
+  border-right-color: #438EFF;
+}
+
+.repo.html:after {
+  border-right-color: #E44B23;
+}
+
+.repo.shell:after {
+  border-right-color: #89E051;
+}
+
+.repo.logos:after {
+  border-right-color: #CCC;
+}
+
+.repo.css:after {
+  border-right-color: #563D7C;
+}
+
+.repo.objective-c\+\+:after {
+  border-right-color: #6866FB;
 }
