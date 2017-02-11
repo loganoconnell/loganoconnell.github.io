@@ -242,3 +242,7 @@ li.repo h3 {
 .repo.viml:after {
   border-right-color: #0A00FF;
 }
+
+.repo.arduino:after {
+  border-right-color: #BD79D1;
+}
