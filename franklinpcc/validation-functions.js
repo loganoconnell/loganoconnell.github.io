@@ -35,7 +35,7 @@ $(document).ready(function() {
                         message: 'The entered last name must be more than 1 and less than 30 characters long'
                     },
                     regexp: {
-                        regexp: /^[A-z]+$/,
+                        regexp: /^[A-z ']+$/,
                         message: 'The entered last name can only consist of alphabetical characters'
                     },
                 }
