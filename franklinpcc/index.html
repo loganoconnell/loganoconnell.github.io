@@ -5,13 +5,14 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.formvalidation/0.6.1/css/formValidation.min.css"/>
     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.formvalidation/0.6.1/js/formValidation.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.formvalidation/0.6.1/js/framework/bootstrap.min.js"></script>
 
     <style type="text/css">
         .glyphicon-refresh-animate {
@@ -32,66 +33,746 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-lg-12">
-                <h2>Franklin PCC</h2>
-                <p>Please enter your Constant Contact information:</p>
-            </div>
+        <div class="jumbotron">
+            <h1>Franklin PCC Information Form</h1>
+            <p>Use this form to enter your Constant Contact info.</p>
         </div>
 
-        <hr>
+        <form class="form-horizontal" id="test-form" role="form">
+            <h2>Parent/Guardian Information</h2>
+            <div class="parentFormTemplate1">
+                <h3><span class="label label-primary col-lg-2 col-xs-4 col-lg-offset-1 parentLabel">Parent 1</span></h3>
+                <button type="button" class="btn btn-success parentAddButton" style="padding: .2em .6em .2em; margin-left: 10px"><span class="glyphicon glyphicon-plus parentAddButtonSpan"></span></button>
+                <hr class="col-lg-offset-1 col-lg-10"/>
 
-        <form class="form-horizontal" role="form" id="test-form">
-            <div class="form-group">
-                <label class="col-lg-3 control-label">First Name</label>
-                    <div class="col-lg-3 inputGroupContainer">
-                        <div class="col-xs-12 input-group">
-                            <input type="text" class="form-control" name="firstName" placeholder="First Name"/>
-                        </div>
+                <div class="form-group">
+                    <label for="parent1FirstName" class="col-lg-2 control-label" id="parent1FirstNameLabel">First Name:</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" name="parent1FirstName" id="parent1FirstName" placeholder="John">
                     </div>
-            </div>
-
-            <div class="form-group">
-                <label class="col-lg-3 control-label">Last Name</label>
-                    <div class="col-lg-3 inputGroupContainer">
-                        <div class="col-xs-12 input-group">
-                            <input type="text" class="form-control" name="lastName" placeholder="Last Name"/>
-                        </div>
+                    <label for="parent1LastName" class="col-lg-2 control-label" id="parent1LastNameLabel">Last Name:</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" name="parent1LastName" id="parent1LastName" placeholder="Appleseed">
                     </div>
-            </div>
-
-            <div class="form-group">
-                <label class="col-lg-3 control-label">Email</label>
-                    <div class="col-lg-3 inputGroupContainer">
-                        <div class="col-xs-12 input-group">
-                            <input type="text" class="form-control" name="email" placeholder="name@domain.com"/>
-                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent1HomePhone" class="col-lg-2 control-label" id="parent1HomePhoneLabel">Home Phone #:</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" name="parent1HomePhone" id="parent1HomePhone" placeholder="1-800-500-600">
                     </div>
-            </div>
-
-            <div class="form-group">
-                <label class="col-lg-3 control-label">Address</label>
-                    <div class="col-lg-3 inputGroupContainer">
-                        <div class="col-xs-12 col-lg-12 input-group">
-                            <input type="text" class="form-control" name="address" placeholder="Enter your address here"/>
-                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent1CellPhone" class="col-lg-2 control-label" id="parent1CellPhoneLabel">Cell Phone #:</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" name="parent1CellPhone" id="parent1CellPhone" placeholder="1-800-500-600">
                     </div>
-            </div>
-
-            <div class="form-group">
-                <label class="col-lg-3 control-label">Notes</label>
-                    <div class="col-lg-3 inputGroupContainer">
-                        <div class="col-xs-12 col-lg-12 input-group">
-                            <textarea type="text" class="form-control" name="comments" placeholder="Comments or questions?" rows="4" style="resize: vertical;"></textarea>
-                        </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent1Email" class="col-lg-2 control-label" id="parent1EmailLabel">Email:</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" name="parent1Email" id="parent1Email" placeholder="example@gmail.com">
                     </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-lg-9 col-lg-offset-3">
-                    <button type="submit" class="btn btn-default" id="postForm">Submit</button>
+                </div>
+                <div class="form-group">
+                    <label for="parent1StreetAddress" class="col-lg-2 control-label" id="parent1StreetAddressLabel">Street Address:</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" name="parent1StreetAddress" id="parent1StreetAddress" placeholder="1 Main Street">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent1City" class="col-lg-1 col-lg-offset-1 control-label" id="parent1CityLabel">City:</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" name="parent1City" id="parent1City" placeholder="Franklin">
+                    </div>
+                    <label for="parent1State" class="col-lg-1 control-label" id="parent1StateLabel">State:</label>
+                    <div class="col-lg-2">
+                        <input type="text" class="form-control" name="parent1State" id="parent1State" placeholder="MA">
+                    </div>
+                    <label for="parent1Zip" class="col-lg-1 control-label" id="parent1ZipLabel">Zipcode:</label>
+                    <div class="col-lg-2">
+                        <input type="text" class="form-control" name="parent1Zip" id="parent1Zip" placeholder="02038">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="recievePCCEmail1" class="col-lg-4 control-label" id="recievePCCEmail1Label">Would you like to recieve PCC email?:</label>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="recievePCCEmail1" id="recievePCCEmail1Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="recievePCCEmail1" id="recievePCCEmail1No" value="No"> No
+                        </label>
+                        <label class="form-text text-muted col-lg-4 col-xs-12" style="margin-bottom: 0px; padding-top: 7px"><small>Before we can share all of our exciting news and events with you via email, we need your permission.  Your private information WILL NOT be shared, sold, or available to anyone besides the PCC Board and Committee Chairs as appropriate.</small></label>
+                    </div>
                 </div>
             </div>
+
+            <div class="parentFormTemplate2 hidden">
+                <h3><span class="label label-primary col-lg-2 col-xs-4 col-lg-offset-1 parentLabel">Parent 2</span></h3>
+                <button type="button" class="btn btn-danger parentRemoveButton" style="padding: .2em .6em .2em; margin-left: 10px"><span class="glyphicon glyphicon-minus"></span></button>
+                <hr class="col-lg-offset-1 col-lg-10"/>
+
+                <div class="form-group">
+                    <label for="parent2FirstName" class="col-lg-2 control-label" id="parent2FirstNameLabel">First Name:</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" name="parent2FirstName" id="parent2FirstName" placeholder="John">
+                    </div>
+                    <label for="parent2LastName" class="col-lg-2 control-label" id="parent2LastNameLabel">Last Name:</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" name="parent2LastName" id="parent2LastName" placeholder="Appleseed">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent2HomePhone" class="col-lg-2 control-label" id="parent2HomePhoneLabel">Home Phone #:</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" name="parent2HomePhone" id="parent2HomePhone" placeholder="1-800-500-600">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent2CellPhone" class="col-lg-2 control-label" id="parent2CellPhoneLabel">Cell Phone #:</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" name="parent2CellPhone" id="parent2CellPhone" placeholder="1-800-500-600">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent2Email" class="col-lg-2 control-label" id="parent2EmailLabel">Email:</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" name="parent2Email" id="parent2Email" placeholder="example@gmail.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent2StreetAddress" class="col-lg-2 control-label" id="parent2StreetAddressLabel">Street Address:</label>
+                    <div class="col-lg-9">
+                        <input type="text" class="form-control" name="parent2StreetAddress" id="parent2StreetAddress" placeholder="1 Main Street">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parent2City" class="col-lg-1 col-lg-offset-1 control-label" id="parent2CityLabel">City:</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" name="parent2City" id="parent2City" placeholder="Franklin">
+                    </div>
+                    <label for="parent2State" class="col-lg-1 control-label" id="parent2StateLabel">State:</label>
+                    <div class="col-lg-2">
+                        <input type="text" class="form-control" name="parent2State" id="parent2State" placeholder="MA">
+                    </div>
+                    <label for="parent2Zip" class="col-lg-1 control-label" id="parent2ZipLabel">Zipcode:</label>
+                    <div class="col-lg-2">
+                        <input type="text" class="form-control" name="parent2Zip" id="parent2Zip" placeholder="02038">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="recievePCCEmail2" class="col-lg-4 control-label" id="recievePCCEmail2Label">Would you like to recieve PCC email?:</label>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="recievePCCEmail2" id="recievePCCEmail2Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="recievePCCEmail2" id="recievePCCEmail2No" value="No"> No
+                        </label>
+                        <label class="form-text text-muted col-lg-4 col-xs-12" style="margin-bottom: 0px; padding-top: 7px"><small>Before we can share all of our exciting news and events with you via email, we need your permission.  Your private information WILL NOT be shared, sold, or available to anyone besides the PCC Board and Committee Chairs as appropriate.</small></label>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Student Information</h2>
+            <div class="studentFormTemplate">
+                <h3><span class="label label-primary col-lg-2 col-xs-4 col-lg-offset-1 studentLabel">Student 1</span></h3>
+                <button type="button" class="btn btn-success studentAddButton" style="padding: .2em .6em .2em; margin-left: 10px"><span class="glyphicon glyphicon-plus studentAddButtonSpan"></span></button>
+                <hr class="col-lg-offset-1 col-lg-10"/>
+
+                <div class="form-group">
+                    <label for="student1FirstName" class="col-lg-2 control-label" id="student1FirstNameLabel">First Name:</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" name="student1FirstName" id="student1FirstName" placeholder="John">
+                    </div>
+                    <label for="student1LastName" class="col-lg-2 control-label" id="student1LastNameLabel">Last Name:</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" name="student1LastName" id="student1LastName" placeholder="Appleseed">
+                    </div>
+                </div>
+                <div class="form-group form-inline">
+                    <label for="student1Grade" class="col-lg-2 col-xs-12 control-label" style="margin-right: 15px">Grade:</label>
+                    <select class="form-control col-lg-3 col-xs-12" id="student1Grade" name="student1Grade">
+                        <option>K</option>
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <option>3rd</option>
+                        <option>4th</option>
+                        <option>5th</option>
+                    </select>
+                    <label for="student1Teacher" class="col-lg-1 col-xs-12 control-label">Teacher:</label>
+                    <select class="form-control col-lg-4 col-xs-12" id="student1Teacher" name="student1Teacher">
+                        <option>Teacher 1</option>
+                        <option>Teacher 2</option>
+                        <option>Teacher 3</option>
+                        <option>Teacher 4</option>
+                        <option>Teacher 5</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <h4><span class="label label-default col-lg-1 col-xs-4 col-lg-offset-2">Include on:</span></h4>
+                    <label for="classroomFriendshipList1" class="col-lg-4 control-label" id="classroomFriendshipList1Label">Classroom Friendship List:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be distributed to your classroom only." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="classroomFriendshipList1" id="classroomFriendshipList1Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="classroomFriendshipList1" id="classroomFriendshipList1No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="gradeLevelFriendshipList1" class="col-lg-4 col-lg-offset-3 control-label" id="gradeLevelFriendshipList1Label">Grade Level Friendship List:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be distributed to your entire grade level." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="gradeLevelFriendshipList1" id="gradeLevelFriendshipList1Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="gradeLevelFriendshipList1" id="gradeLevelFriendshipList1No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="schoolWideStudentDirectory1" class="col-lg-4 col-lg-offset-3 control-label" id="schoolWideStudentDirectory1Label">School Wide Student Directory:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be school wide." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="schoolWideStudentDirectory1" id="schoolWideStudentDirectory1Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="schoolWideStudentDirectory1" id="schoolWideStudentDirectory1No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="roomParent1" class="col-lg-5 col-lg-offset-1 control-label" id="roomParent1LLabel">Would you like to volunteer as a Room Parent in this classroom?</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Responsibilities include organizing class events, teacher gifts, creating the classroom/and or grade level friendship list, organizing a copy schedule, and being a liaison between your teacher and parents.  You may choose to co-room parent." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParent1" id="roomParent1Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParent1" id="roomParent1No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="copyHelper1" class="col-lg-5 col-lg-offset-1 control-label" id="copyHelper1Label">Would you like to volunteer as a Copy Helper in this classroom?</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Your teacher will create a copy schedule that works around the availability of all who volunteer to help.  Copying needs vary greatly by teacher and grade; your teacher and Room Parent will be sure to schedule times that works for you." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="copyHelper1" id="copyHelper1Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="copyHelper1" id="copyHelper1No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="studentFormTemplate hidden">
+                <h3><span class="label label-primary col-lg-2 col-xs-4 col-lg-offset-1 studentLabel">Student 2</span></h3>
+                <button type="button" class="btn btn-danger studentRemoveButton" style="padding: .2em .6em .2em; margin-left: 10px"><span class="glyphicon glyphicon-minus studentRemoveButtonSpan"></span></button>
+                <hr class="col-lg-offset-1 col-lg-10"/>
+
+                <div class="form-group">
+                    <label for="student2FirstName" class="col-lg-2 control-label" id="student2FirstNameLabel">First Name:</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" name="student2FirstName" id="student2FirstName" placeholder="John">
+                    </div>
+                    <label for="student2LastName" class="col-lg-2 control-label" id="student2LastNameLabel">Last Name:</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" name="student2LastName" id="student2LastName" placeholder="Appleseed">
+                    </div>
+                </div>
+                <div class="form-group form-inline">
+                    <label for="student2Grade" class="col-lg-2 col-xs-12 control-label" style="margin-right: 15px">Grade:</label>
+                    <select class="form-control col-lg-3 col-xs-12" id="student2Grade" name="student2Grade">
+                        <option>K</option>
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <option>3rd</option>
+                        <option>4th</option>
+                        <option>5th</option>
+                    </select>
+                    <label for="student2Teacher" class="col-lg-1 col-xs-12 control-label">Teacher:</label>
+                    <select class="form-control col-lg-4 col-xs-12" id="student2Teacher" name="student2Teacher">
+                        <option>Teacher 1</option>
+                        <option>Teacher 2</option>
+                        <option>Teacher 3</option>
+                        <option>Teacher 4</option>
+                        <option>Teacher 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <h4><span class="label label-default col-lg-1 col-xs-4 col-lg-offset-2">Include on:</span></h4>
+                    <label for="classroomFriendshipList2" class="col-lg-4 control-label" id="classroomFriendshipList2Label">Classroom Friendship List:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be distributed to your classroom only." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="classroomFriendshipList2" id="classroomFriendshipList2Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="classroomFriendshipList2" id="classroomFriendshipList2No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="gradeLevelFriendshipList2" class="col-lg-4 col-lg-offset-3 control-label" id="gradeLevelFriendshipList2Label">Grade Level Friendship List:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be distributed to your entire grade level." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="gradeLevelFriendshipList2" id="gradeLevelFriendshipList2Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="gradeLevelFriendshipList2" id="gradeLevelFriendshipList2No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="schoolWideStudentDirectory2" class="col-lg-4 col-lg-offset-3 control-label" id="schoolWideStudentDirectory2Label">School Wide Student Directory:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be school wide." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="schoolWideStudentDirectory2" id="schoolWideStudentDirectory2Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="schoolWideStudentDirectory2" id="schoolWideStudentDirectory2No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="roomParent2" class="col-lg-5 col-lg-offset-1 control-label" id="roomParent2Label">Would you like to volunteer as a Room Parent in this classroom?</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Responsibilities include organizing class events, teacher gifts, creating the classroom/and or grade level friendship list, organizing a copy schedule, and being a liaison between your teacher and parents.  You may choose to co-room parent." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParent2" id="vYes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParent2" id="roomParent2No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="copyHelper2" class="col-lg-5 col-lg-offset-1 control-label" id="copyHelper2Label">Would you like to volunteer as a Copy Helper in this classroom?</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Your teacher will create a copy schedule that works around the availability of all who volunteer to help.  Copying needs vary greatly by teacher and grade; your teacher and Room Parent will be sure to schedule times that works for you." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="copyHelper2" id="copyHelper2Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="copyHelper2" id="copyHelper2No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="studentFormTemplate hidden">
+                <h3><span class="label label-primary col-lg-2 col-xs-4 col-lg-offset-1 studentLabel">Student 3</span></h3>
+                <button type="button" class="btn btn-danger studentRemoveButton" style="padding: .2em .6em .2em; margin-left: 10px"><span class="glyphicon glyphicon-minus studentRemoveButtonSpan"></span></button>
+                <hr class="col-lg-offset-1 col-lg-10"/>
+
+                <div class="form-group">
+                    <label for="student3FirstName" class="col-lg-2 control-label" id="student3FirstNameLabel">First Name:</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" name="student3FirstName" id="student3irstName" placeholder="John">
+                    </div>
+                    <label for="student3LastName" class="col-lg-2 control-label" id="student3LastNameLabel">Last Name:</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" name="student3LastName" id="student3LastName" placeholder="Appleseed">
+                    </div>
+                </div>
+                <div class="form-group form-inline">
+                    <label for="student3Grade" class="col-lg-2 col-xs-12 control-label" style="margin-right: 15px">Grade:</label>
+                    <select class="form-control col-lg-3 col-xs-12" id="student3Grade" name="student3Grade">
+                        <option>K</option>
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <option>3rd</option>
+                        <option>4th</option>
+                        <option>5th</option>
+                    </select>
+                    <label for="student3Teacher" class="col-lg-1 col-xs-12 control-label">Teacher:</label>
+                    <select class="form-control col-lg-4 col-xs-12" id="student3Teacher" name="student3Teacher">
+                        <option>Teacher 1</option>
+                        <option>Teacher 2</option>
+                        <option>Teacher 3</option>
+                        <option>Teacher 4</option>
+                        <option>Teacher 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <h4><span class="label label-default col-lg-1 col-xs-4 col-lg-offset-2">Include on:</span></h4>
+                    <label for="classroomFriendshipList3" class="col-lg-4 control-label" id="classroomFriendshipList3Label">Classroom Friendship List:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be distributed to your classroom only." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="classroomFriendshipList3" id="classroomFriendshipList3Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="classroomFriendshipList3" id="classroomFriendshipList3No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="gradeLevelFriendshipList3" class="col-lg-4 col-lg-offset-3 control-label" id="gradeLevelFriendshipList13Label">Grade Level Friendship List:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be distributed to your entire grade level." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="gradeLevelFriendshipList3" id="gradeLevelFriendshipList3Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="gradeLevelFriendshipList3" id="gradeLevelFriendshipList3No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="schoolWideStudentDirectory3" class="col-lg-4 col-lg-offset-3 control-label" id="schoolWideStudentDirectory3Label">School Wide Student Directory:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be school wide." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="schoolWideStudentDirectory3" id="schoolWideStudentDirectory3Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="schoolWideStudentDirectory3" id="schoolWideStudentDirectory3No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="roomParent3" class="col-lg-5 col-lg-offset-1 control-label" id="roomParent3Label">Would you like to volunteer as a Room Parent in this classroom?</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Responsibilities include organizing class events, teacher gifts, creating the classroom/and or grade level friendship list, organizing a copy schedule, and being a liaison between your teacher and parents.  You may choose to co-room parent." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParent3" id="roomParent3Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParent3" id="roomParent3No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="copyHelper3" class="col-lg-5 col-lg-offset-1 control-label" id="copyHelper3Label">Would you like to volunteer as a Copy Helper in this classroom?</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Your teacher will create a copy schedule that works around the availability of all who volunteer to help.  Copying needs vary greatly by teacher and grade; your teacher and Room Parent will be sure to schedule times that works for you." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="copyHelper3" id="copyHelper3Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="copyHelper3" id="copyHelper3No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="studentFormTemplate hidden">
+                <h3><span class="label label-primary col-lg-2 col-xs-4 col-lg-offset-1 studentLabel">Student 4</span></h3>
+                <button type="button" class="btn btn-danger studentRemoveButton" style="padding: .2em .6em .2em; margin-left: 10px"><span class="glyphicon glyphicon-minus studentRemoveButtonSpan"></span></button>
+                <hr class="col-lg-offset-1 col-lg-10"/>
+
+                <div class="form-group">
+                    <label for="student4FirstName" class="col-lg-2 control-label" id="student4FirstNameLabel">First Name:</label>
+                    <div class="col-lg-3">
+                        <input type="text" class="form-control" name="student4FirstName" id="student4FirstName" placeholder="John">
+                    </div>
+                    <label for="student4LastName" class="col-lg-2 control-label" id="student4LastNameLabel">Last Name:</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" name="student4LastName" id="student4LastName" placeholder="Appleseed">
+                    </div>
+                </div>
+                <div class="form-group form-inline">
+                    <label for="student4Grade" class="col-lg-2 col-xs-12 control-label" style="margin-right: 15px">Grade:</label>
+                    <select class="form-control col-lg-3 col-xs-12" id="student4Grade" name="student4Grade">
+                        <option>K</option>
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <option>3rd</option>
+                        <option>4th</option>
+                        <option>5th</option>
+                    </select>
+                    <label for="student4Teacher" class="col-lg-1 col-xs-12 control-label">Teacher:</label>
+                    <select class="form-control col-lg-4 col-xs-12" id="student4Teacher" name="student4Teacher">
+                        <option>Teacher 1</option>
+                        <option>Teacher 2</option>
+                        <option>Teacher 3</option>
+                        <option>Teacher 4</option>
+                        <option>Teacher 5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <h4><span class="label label-default col-lg-1 col-xs-4 col-lg-offset-2">Include on:</span></h4>
+                    <label for="classroomFriendshipList4" class="col-lg-4 control-label" id="classroomFriendshipList4Label">Classroom Friendship List:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be distributed to your classroom only." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="classroomFriendshipList4" id="classroomFriendshipList4Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="classroomFriendshipList4" id="classroomFriendshipList4No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="gradeLevelFriendshipList4" class="col-lg-4 col-lg-offset-3 control-label" id="gradeLevelFriendshipList4Label">Grade Level Friendship List:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be distributed to your entire grade level." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="gradeLevelFriendshipList4" id="gradeLevelFriendshipList4Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="gradeLevelFriendshipList4" id="gradeLevelFriendshipList4No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="schoolWideStudentDirectory4" class="col-lg-4 col-lg-offset-3 control-label" id="schoolWideStudentDirectory4Label">School Wide Student Directory:</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="A listing of students and contact information to be school wide." class="col-lg-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="schoolWideStudentDirectory4" id="schoolWideStudentDirectory4Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="schoolWideStudentDirectory4" id="schoolWideStudentDirectory4No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="roomParent4" class="col-lg-5 col-lg-offset-1 control-label" id="roomParent4Label">Would you like to volunteer as a Room Parent in this classroom?</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Responsibilities include organizing class events, teacher gifts, creating the classroom/and or grade level friendship list, organizing a copy schedule, and being a liaison between your teacher and parents.  You may choose to co-room parent." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParent4" id="roomParent4Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParent4" id="roomParent4No" value="No"> No
+                        </label>
+                    </div>
+                    <label for="copyHelper4" class="col-lg-5 col-lg-offset-1 control-label" id="copyHelper4Label">Would you like to volunteer as a Copy Helper in this classroom?</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Your teacher will create a copy schedule that works around the availability of all who volunteer to help.  Copying needs vary greatly by teacher and grade; your teacher and Room Parent will be sure to schedule times that works for you." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="copyHelper4" id="copyHelper4Yes" value="Yes"> Yes
+                        </label>
+                        <label class="form-check-label col-lg-1" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="copyHelper4" id="copyHelper4No" value="No"> No
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Volunteer Opportunities</h2>
+            <div class="volunteerFormTemplate">
+                <h3><span class="label label-primary col-lg-2 col-xs-4 col-lg-offset-1 studentLabel">Fundraising</span></h3>
+                <hr class="col-lg-offset-1 col-lg-10"/>
+
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="familyFieldDay" class="col-lg-3 control-label" id="familyFieldDayLabel">Family Field Day</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee coordinates and organizes the Fall Fundraiser.  This includes soliciting donations, planning and executing the event.  MANY volunteers are needed." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="familyFieldDay" id="familyFieldDayCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="familyFieldDay" id="familyFieldDayChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="familyFieldDay" id="familyFieldDayNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="winterAuction" class="col-lg-3 control-label" id="winterAuctionLabel">Winter Auction</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee coordinates and organizes the Winter Fundraiser.  This includes soliciting donations, planning and executing the event.  MANY volunteers are needed." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="winterAuction" id="winterAuctionCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="winterAuction" id="winterAuctionChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="winterAuction" id="winterAuctionNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="springCarnival" class="col-lg-3 control-label" id="springCarnivalLabel">Spring Carnival</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee coordinates and organizes the Annual Spring Carnival.  This is the PCC&#39;s largest fundraiser and one of the most popular events of school year.  There are games, food, a silent auction, cake decorating, and music.  Many volunteers are needed." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="springCarnival" id="springCarnivalCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="springCarnival" id="springCarnivalChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="springCarnival" id="springCarnivalNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="bookFairs" class="col-lg-3 control-label" id="bookFairsLabel">Book Fairs</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Jefferson Book Fairs are held two times per year.  Volunteers are needed during the in house Scholastic Book Fair for set up, cashiering, clean up and to assist children with their money and book selections.  The Barnes & Noble Book Fairs require the coordination of entertainment, teacher guest speakers, and the raffle." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="bookFairs" id="bookFairsCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="bookFairs" id="bookFairsChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="bookFairs" id="bookFairsNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="communityPartners" class="col-lg-3 control-label" id="communityPartnersLabel">Community Partners</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee coordinates, plans, and manages fundraising relationships/events with our community partners.  This includes Dinner Nights (99 Restaurant, Panera, Foryo, etc.) as well as program sign-up programs (Target, Stop & Shop, BJs, etc.)" class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="communityPartners" id="communityPartnersCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="communityPartners" id="communityPartnersChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="communityPartners" id="communityPartnersNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="square1Art" class="col-lg-3 control-label" id="square1ArtLabel">Square 1 Art</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="The Square 1 Art Coordinator organizes all aspects of this late-Fall Fundraiser.  This includes distribution on materials, advertising, collection or artwork, and distribution of finished products." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="square1Art" id="square1ArtCoordinator" value="Coordinator"> Coordinator
+                        </label>
+                        <label class="form-check-label col-lg-2 col-lg-offset-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="square1Art" id="square1ArtNone" value="None"> None
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="boxTopsForEducation" class="col-lg-3 control-label" id="boxTopsForEducationLabel">Box Tops for Education</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Box Top Committee members trim, count and prepare General Mills Box Tops to submit by mail for cash for Jefferson.  This is an easy one to do from home for those unable to come in to school." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="boxTopsForEducation" id="boxTopsForEducationCoordinator" value="Coordinator"> Coordinator
+                        </label>
+                        <label class="form-check-label col-lg-2 col-lg-offset-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="boxTopsForEducation" id="boxTopsForEducationNone" value="None"> None
+                        </label>
+                    </div>
+                </div>
+
+                <h3><span class="label label-primary col-lg-2 col-xs-4 col-lg-offset-1 studentLabel">School/Community</span></h3>
+                <hr class="col-lg-offset-1 col-lg-10"/>
+
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="familyStudentActivities" class="col-lg-3 control-label" id="familyStudentActivitiesLabel">Family & Student Activities</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee organizes opportunities for families to gather for various after school events.  Events include (but are not limited to) Spooky BINGO, Science Nights, Family Game Nights, Movie Nights, Themed Dances, Sporting Events, etc.  Generally 3-5 events are planned each school year." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="familyStudentActivities" id="familyStudentActivitiesCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="familyStudentActivities" id="familyStudentActivitiesChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="familyStudentActivities" id="familyStudentActivitiesNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="communityService" class="col-lg-3 control-label" id="communityServiceLabel">Community Service</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee works on various humanitarian needs throughout the year.  Past collection have included Food Pantry Drives, Cradles to Crayons Collections, Coat Drives, the Mended Hearts Program and more." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="communityService" id="communityServiceCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="communityService" id="communityServiceChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="communityService" id="communityServiceNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="educationalEnrichment" class="col-lg-3 control-label" id="educationalEnrichmentLabel">Education Enrichment</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee, in conjunction with school administration, organizes the Artist in Residence Program, Cultural Enrichment Assemblies, and our Spring Reading Program." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="educationalEnrichment" id="educationalEnrichmentCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="educationalEnrichment" id="educationalEnrichmentChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="educationalEnrichment" id="educationalEnrichmentNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="fifthGradeCelebration" class="col-lg-3 control-label" id="fifthGradeCelebrationLabel">5th Grade Celebration</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee meets throughout the year and works with the fifth grade staff, students, and parents/guardians to organize and raise funds for an end of the year celebration for our &#34;graduates.&#34;" class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="fifthGradeCelebration" id="fifthGradeCelebrationCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="fifthGradeCelebration" id="fifthGradeCelebrationChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="fifthGradeCelebration" id="fifthGradeCelebrationNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="yearbook" class="col-lg-3 control-label" id="yearbookLabel">Yearbook</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This committee meets throughout the year to photograph, gather pictures, proofread and work on design layout for the yearbook.  They also coordinate sales and distribution of Yearbooks." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="yearbook" id="yearbookCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="yearbook" id="yearbookChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="yearbook" id="yearbookNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="outdoorBeautification" class="col-lg-3 control-label" id="outdoorBeautificationLabel">Outdoor Beautification</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="This group organizes our Fall & Spring Clean-Up Events.  They also maintain the planters in the front of the school." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="outdoorBeautification" id="outdoorBeautificationCommittee" value="Committee"> Committee
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="outdoorBeautification" id="outdoorBeautificationChair" value="Chair"> Chair
+                        </label>
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="outdoorBeautification" id="outdoorBeautificationNeither" value="Neither"> Neither
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px">
+                    <label for="roomParentTeam" class="col-lg-3 control-label" id="roomParentTeamLabel">Room Parent Team</label>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="The room parent coordinator is the liaison between the room parents, teachers, and PCC." class="col-lg-1 col-lg-offset-1 text-center" style="margin-bottom: 0px; padding-top: 7px">?</a>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label col-lg-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParentTeam" id="roomParentTeamCoordinator" value="Coordinator"> Coordinator
+                        </label>
+                        <label class="form-check-label col-lg-2 col-lg-offset-2" style="margin-bottom: 0px; padding-top: 7px">
+                            <input class="form-check-input" type="radio" name="roomParentTeam" id="roomParentTeamNone" value="None"> None
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Additional Comments</h2>
+            <div class="form-group col-lg-10">
+                <textarea class="form-control col-lg-offset-1 col-lg-8" style="resize: vertical" placeholder="Leave any additional thoughts, comments or concerns here!" rows="5"></textarea>
+            </div>
+
+            <hr class="col-lg-offset-1 col-lg-10"/>
+            <br/>
+            <button type="submit" class="btn btn-lg btn-success btn-block submitButton">Submit</button>
+            <br/>
         </form>
     </div>
 </body>
