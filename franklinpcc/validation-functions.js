@@ -7,7 +7,7 @@ $(document).ready(function() {
             valid: 'glyphicon glyphicon-ok',
             invalid: 'glyphicon glyphicon-remove',
             validating: 'glyphicon glyphicon-refresh'
-        },        
+        },
         fields: {
             parent1FirstName: {
              message: 'The entered first name is not valid',
@@ -301,13 +301,13 @@ $(document).ready(function() {
             }
         }
     })
-    .on('success.form.bv', function(e) {
+    .on('success.form.fv', function(e) {
         e.preventDefault();
 
         var values = $('.parentFormTemplate1 input:text').map(function() {
             return this.value;
         }).get().join(' ');
-        
+
         var parent1 = values;
         console.log(parent1);
 
@@ -315,7 +315,7 @@ $(document).ready(function() {
             var values2 = $('.parentFormTemplate2 input:text').map(function() {
                 return this.value;
             }).get().join(' ');
-            
+
             var parent2 = values2;
             console.log(parent2);
         }
@@ -326,44 +326,76 @@ $(document).ready(function() {
 
         var wouldLikeEmailsStr = "&wouldLikeEmails=" + $('input[name="recievePCCEmail1"]:checked').val() + (!$('.parentFormTemplate2').hasClass('hidden') ? ("\n" + $('input[name="recievePCCEmail2"]:checked').val()) : '');
 
-        var data = parentStr + parentEmailsStr + wouldLikeEmailsStr;
+        var studentsStr = "&students=";
+
+        $('.studentFormTemplate').each(function(i, obj) {
+            if (!($(obj).hasClass('hidden'))) {
+                var values3 = $(obj).find('input:text').map(function() {
+                    return this.value;
+                }).get().join(' ');
+
+                var values4 = $(obj).find('option:selected').map(function() {
+                    return this.text;
+                }).get().join(' ');
+
+                var values5 = $(obj).find('input:checked').map(function() {
+                    var idString = this.id;
+                    indexOfDigit = idString.search(/\d/);
+                    var finalStr = idString.substring(0, indexOfDigit) + ": " + idString.substring(indexOfDigit + 1);
+                    return finalStr;
+                }).get().join('\n');
+                
+                studentsStr += values3 + "\n" + values4 + "\n" + values5;
+
+                if (!(i === (studentCounter - 1))) {
+                    studentsStr += "\n\n";
+                }
+            }
+        });
+
+        var volunteerOppsStr = "&volunteerOpps=";
+
+        var values5 = $('.volunteerFormTemplate').find('input:checked').map(function() {
+                var idString = this.id;
+
+                if (idString.indexOf("Neither") !== -1) {
+                    return "";
+                }
+
+                else if (idString.indexOf("None") !== -1) {
+                    return "";
+                }
+
+                else {
+                    return this.id;
+                }
+            }).get().join(' ');
+
+        volunteerOppsStr += values5;
+
+        commentsStr = "&comments=";
+
+        commentsStr += $('.commentsFormTemplate').val();
+
+        var data = parentStr + parentEmailsStr + wouldLikeEmailsStr + studentsStr + volunteerOppsStr + commentsStr;
 
         console.log(data);
 
         var url = 'https://script.google.com/macros/s/AKfycbyFoJrns7Yk94Ok8Ku8ZCFlDkMptd6tGxIpuJWXOG7OKmpB7pSX/exec';
         var redirectUrl = 'success-page.html';
-        
+
         $('.submitButton').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
-        
+
         var jqxhr = $.post(url, data, function(data) {
-            //$(location).attr('href', redirectUrl);
-        })
-        .fail(function(data) {
-            if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
-                //$(location).attr('href', redirectUrl);                
-            }
-        });
-
-        /* var $form = $(e.target);
-        console.log($form.serialize());
-
-        var bv = $form.data('bootstrapValidator');
-
-        var url = 'https://script.google.com/macros/s/AKfycbyFoJrns7Yk94Ok8Ku8ZCFlDkMptd6tGxIpuJWXOG7OKmpB7pSX/exec';
-        var redirectUrl = 'success-page.html';
-        
-        $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
-        
-        var jqxhr = $.post(url, $form.serialize(), function(data) {
             $(location).attr('href', redirectUrl);
         })
         .fail(function(data) {
             if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
-                $(location).attr('href', redirectUrl);                
+                $(location).attr('href', redirectUrl);
             }
-        }); */
+        });
     });
-    
+
     $('.parentAddButton').click(function() {
         $('.parentFormTemplate2').removeClass('hidden');
     });
