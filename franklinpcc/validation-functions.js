@@ -309,7 +309,7 @@ $(document).ready(function() {
         }).get().join(' ');
 
         var parent1 = values;
-        console.log(parent1);
+        //console.log(parent1);
 
         if (!$('.parentFormTemplate2').hasClass('hidden')) {
             var values2 = $('.parentFormTemplate2 input:text').map(function() {
@@ -317,7 +317,7 @@ $(document).ready(function() {
             }).get().join(' ');
 
             var parent2 = values2;
-            console.log(parent2);
+            //console.log(parent2);
         }
 
         var parentStr = "parentInformation=" + parent1 + ((parent2 == null) ? '' : ("\n\n" + parent2));
@@ -353,33 +353,41 @@ $(document).ready(function() {
             }
         });
 
+        var teachersStr = "&teachers=";
+
+        var values6 = $('.teacherSelect').map(function() {
+            return this.value;
+        }).get().join('\n\n');
+
+        teachersStr += values6;
+
         var volunteerOppsStr = "&volunteerOpps=";
 
-        var values5 = $('.volunteerFormTemplate').find('input:checked').map(function() {
-                var idString = this.id;
+        var values7 = $('.volunteerFormTemplate').find('input:checked').map(function() {
+            var idString = this.id;
 
-                if (idString.indexOf("Neither") !== -1) {
-                    return "";
-                }
+            if (idString.indexOf("Neither") !== -1) {
+                return "";
+            }
 
-                else if (idString.indexOf("None") !== -1) {
-                    return "";
-                }
+            else if (idString.indexOf("None") !== -1) {
+                return "";
+            }
 
-                else {
-                    return this.id;
-                }
-            }).get().join(' ');
+            else {
+                return this.id;
+            }
+        }).get().join(' ');
 
-        volunteerOppsStr += values5;
+        volunteerOppsStr += values7;
 
         commentsStr = "&comments=";
 
         commentsStr += $('.commentsFormTemplate').val();
 
-        var data = parentStr + parentEmailsStr + wouldLikeEmailsStr + studentsStr + volunteerOppsStr + commentsStr;
+        var data = parentStr + parentEmailsStr + wouldLikeEmailsStr + studentsStr + teachersStr + volunteerOppsStr + commentsStr;
 
-        console.log(data);
+        //console.log(data);
 
         var url = 'https://script.google.com/macros/s/AKfycbyFoJrns7Yk94Ok8Ku8ZCFlDkMptd6tGxIpuJWXOG7OKmpB7pSX/exec';
         var redirectUrl = 'success-page.html';
