@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/loganoconnell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://loganoconnell.me
+  * I am loganoconnell (https://keybase.io/loganoconnell) on keybase.
+  * I have a public key with fingerprint 6F15 8DE2 A130 5741 7279  7848 B9D3 44EA 0D2E ADF3
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101da20fbe4e1dc68e05ae21d3b7fa80512f3cc64bcbeea9a19e9aa577da5a3ce3f0a",
+      "fingerprint": "6f158de2a130574172797848b9d344ea0d2eadf3",
+      "host": "keybase.io",
+      "key_id": "b9d344ea0d2eadf3",
+      "kid": "0101da20fbe4e1dc68e05ae21d3b7fa80512f3cc64bcbeea9a19e9aa577da5a3ce3f0a",
+      "uid": "49a7615686b96a64ede1ffd8f1e2f719",
+      "username": "loganoconnell"
+    },
+    "service": {
+      "hostname": "loganoconnell.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1528485009,
+  "expire_in": 157680000,
+  "prev": "63b1ef205ca1460aacc4066d5e5b8236005df77fc54ea87065ae7b74190eb031",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMIkAnicrVJbSFRRFB21DMXe9VEoxKGoaJJz7r3nPqa3HwVR9hSKBqZz79lXL073
+jjPjlKkUPSAjpCIiQtI+AjHwR9OKIEcqhPyRQnpQEfmKDOxlD6E6V+qvz87P4ey9
+9jprr73vTc8K5GZ0NvYEq0999jIeppsqA/sWPj5XjUyPV6FQNSqHyQuiHBLJSLnD
+UQhhgglnErZNUIBwS9UBUwYS4bKp2UzHlEi2bFmqYlomADMYMcBgjGoaZ5TJFsg2
+ZiiIbMcthXgs7rhJQavahOocJEZkTDWFaJJmaLqimwaXFQUY5hIwbsuisMxL+BVC
+nMkSUOh4IiYekUl5/8D/Z92Vk3SKwTSVUFVXTUNlqgIciG1z3SYg2RoxfGAC4i47
+AAId9UqZ61me60I0imqDSKRSjgW+u347/4IVilAQxeJeUkSiIluWTMYSIb86WRXz
+4QfBjPwhipiOy4WhoiIF8YTjuShEBNJKOj4zoZLwkmJsBBEcijlxiDg+gmqqjsXx
+/4GUPwbZJGBLmFqMKCpmzLIUrKqcAjV1SVYxptzWNNuiwmNdw6qwUDPFvAwMJpYJ
+8lurcD0UokImKxWUCafUZcnKOKDa7q7wlEBGbiB7aqa/aIHcnFl/1+/M4mm/UqGN
+10Jn1wzeUScG1raUXbrWenNudPzFi/m9mVvrf32+vS0dUoqfvo3eevftxPd0T//x
++tc3B3et3tN7bOhydure1fzsmiKlGe1fsv3w5ufd42O7w+3tXSUjp4+u+OmMtTWd
+Pz8x8mwepGl4pLVtOG+mPhCpLwzkPLb2pieO9Nd2eg82bbrQtKV4z9fRancUnvRd
+f7T3fcf2iovh2faZ9pydwR1zjt8fKagbfNnRO97Tl7dttAhltqz8sXF5HztQMlal
+1bkFJeF1nTWvrjR+mdHAl9fUrP8w1nXSOtXd/6lkOossWhCruJVVd+zZsqFVtLl/
++MtSpWX1xQ0DDW/y7974WNT8GzoBVKI=
+=SGMo
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/loganoconnell
+
+==================================================================
+
