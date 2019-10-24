@@ -6,38 +6,38 @@
     <link>https://loganoconnell.me/thunderbuddy-radio/</link>
     <description>A show of boomin tunes and crackling debates</description>
     <itunes:summary>A show of boomin tunes and crackling debates</itunes:summary>
-    
-    
-    
-    
+
+
+
+
     <itunes:author>Logan &amp; Elad</itunes:author>
-    
-    
+
+
     <itunes:owner>
       <itunes:name>Logan O&#39;Connell</itunes:name>
       <itunes:email>logan.w.oconnell@gmail.com</itunes:email>
     </itunes:owner>
-    
-    
+
+
     <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
-    
-  
-  
+
+
+
 	<generator>Dropcaster 1.0.0</generator>
-	
-  
+
+
     <item>
-      <title>Pilot.mp3</title>
+      <title>Pilot</title>
       <itunes:author></itunes:author>
-    
+
       <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
       <enclosure url="https://loganoconnell.me/thunderbuddy-radio/Pilot.mp3" length="57674465" type="audio/mp3"/>
       <link>https://loganoconnell.me/thunderbuddy-radio/Pilot.mp3</link>
       <guid isPermaLink="false">3d0eda7262fa7507001c6c80ede832de3c4912f7</guid>
       <pubDate>Wed, 23 Oct 2019 21:17:25 -0400</pubDate>
       <itunes:duration>3604</itunes:duration>
-    
+
     </item>
-  
+
   </channel>
 </rss>
