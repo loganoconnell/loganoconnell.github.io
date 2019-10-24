@@ -27,19 +27,6 @@
 	
   
     <item>
-      <title>Pilot2.mp3</title>
-      <itunes:author></itunes:author>
-    
-      <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
-      <enclosure url="https://loganoconnell.me/thunderbuddy-radio/Pilot2.mp3" length="57674465" type="audio/mp3"/>
-      <link>https://loganoconnell.me/thunderbuddy-radio/Pilot2.mp3</link>
-      <guid isPermaLink="false">3d0eda7262fa7507001c6c80ede832de3c4912f7</guid>
-      <pubDate>Wed, 23 Oct 2019 21:17:25 -0400</pubDate>
-      <itunes:duration>3604</itunes:duration>
-    
-    </item>
-  
-    <item>
       <title>Pilot.mp3</title>
       <itunes:author></itunes:author>
     
