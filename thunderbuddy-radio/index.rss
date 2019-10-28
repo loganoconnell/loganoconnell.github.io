@@ -27,14 +27,27 @@
 
 
     <item>
-      <title>Pilot</title>
+      <title>Examining New Music - Ep. 2</title>
+      <itunes:author></itunes:author>
+
+      <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
+      <enclosure url="https://loganoconnell.me/thunderbuddy-radio/Examining%20New%20Music.mp3" length="57663598" type="audio/mp3"/>
+      <link>https://loganoconnell.me/thunderbuddy-radio/Examining%20New%20Music.mp3</link>
+      <guid isPermaLink="false">f7d82d2161b641dc33ea5d9d322c4b2f3254d607</guid>
+      <pubDate>Sun, 27 Oct 2019 20:00:00 -0400</pubDate>
+      <itunes:duration>3603</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Pilot - Ep. 1</title>
       <itunes:author></itunes:author>
 
       <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
       <enclosure url="https://loganoconnell.me/thunderbuddy-radio/Pilot.mp3" length="57674465" type="audio/mp3"/>
       <link>https://loganoconnell.me/thunderbuddy-radio/Pilot.mp3</link>
       <guid isPermaLink="false">3d0eda7262fa7507001c6c80ede832de3c4912f7</guid>
-      <pubDate>Wed, 23 Oct 2019 21:17:25 -0400</pubDate>
+      <pubDate>Sun, 20 Oct 2019 20:00:00 -0400</pubDate>
       <itunes:duration>3604</itunes:duration>
 
     </item>
