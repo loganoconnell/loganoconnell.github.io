@@ -27,6 +27,19 @@
 
 
     <item>
+      <title>Album Intros - Ep. 6</title>
+      <itunes:author></itunes:author>
+
+      <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
+      <enclosure url="https://loganoconnell.me/thunderbuddy-radio/Album%20Intros.mp3" length="43468828" type="audio/mp3"/>
+      <link>https://loganoconnell.me/thunderbuddy-radio/Album%20Intros.mp3</link>
+      <guid isPermaLink="false">bf8ec040c2c088f90952e2582b35d232dc9b1d00</guid>
+      <pubDate>Sun, 24 Nov 2019 20:00:00 -0400</pubDate>
+      <itunes:duration>3605</itunes:duration>
+
+    </item>
+
+    <item>
       <title>No Rap or Hip-Hop - Ep. 5</title>
       <itunes:author></itunes:author>
 
