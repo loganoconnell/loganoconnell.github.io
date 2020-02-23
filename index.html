@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 	<head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <title>Logan O'Connell</title>
@@ -11,30 +11,39 @@
 		<meta name="author" content="Logan O'Connell"/>
 
         <link rel="shortcut icon" href="img/icons/favicon.ico"/>
-		<link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"/>
 	</head>
-	<body class="loading">
+	
+	<body class="is-preload">
 		<div id="wrapper">
-			<div id="overlay"></div>
-			<div id="main">
-				<header id="header">
+			<section class="intro">
+				<header>
 					<h1>Logan O'Connell</h1>
-					<p>Software Developer &nbsp;|&nbsp; 20</p>
-					<nav>
-						<ul>
-							<li><a href="//github.com/loganoconnell" class="icon fa-github"><span class="label">Github</span></a></li>
-                            <li><a href="//linkedin.com/in/loganoconnell" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="//twitter.com/logandev22" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="mailto:you@loganoconnell.me" class="icon fa-envelope"><span class="label">Email</span></a></li>
-                            <!-- <li><a href="//loganoconnell.me/blog" class="icon fa-pencil"><span class="label">Blog</span></a></li> -->
-						</ul>
-					</nav>
+					<p>Incoming Software Development Intern @ XPO Logistics<br/>Computer Science @ UMD</p>
+					<ul class="items">
+						<li>
+							<ul class="icons">
+								<li><a href="//github.com/loganoconnell" class="icon brands fa fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="//linkedin.com/in/loganoconnell" class="icon brands fa fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+								<li><a href="//twitter.com/logandev22" class="icon brands fa fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="mailto:you@loganoconnell.me" class="icon brands fa fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</li>
+					</ul>
 				</header>
-			</div>
+				<div class="content">
+					<span class="image fill" data-position="center"><img src="img/pic01.jpg" alt="" /></span>
+				</div>
+			</section>
 		</div>
 
-		<script src="js/script.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 		<script>
 			if (window.location.host == "loganoconnell.me" && window.location.protocol != "https:") {
  				window.location.protocol = "https:";
