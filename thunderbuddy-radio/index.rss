@@ -26,7 +26,35 @@
 	<generator>Dropcaster 1.0.0</generator>
 
     <item>
-      <title>Lovely Lil Wayne Bops - Ep. 27</title>
+      <title>Our XXL 10th Spot Pick - Ep. 30</title>
+      <itunes:author></itunes:author>
+
+      <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
+      <enclosure url="https://loganoconnell.me/thunderbuddy-radio/Our%20XXL%2010th%20Spot%20Pick.mp3" length="46568204" type="audio/mp3"/>
+      <link>https://loganoconnell.me/thunderbuddy-radio/Our%20XXL%2010th%20Spot%20Pick.mp3</link>
+      <guid isPermaLink="false">de21946b74d5650f9a0e589f5795ff38dbbae17b</guid>
+      <pubDate>Tue, 30 Mar 2021 23:00:00 -0400</pubDate>
+      <itunes:duration>3858</itunes:duration>
+      <description>This is an episode founded on opinions. We take a swing through the (very long) XXL Freshman 10th spot list and decide who we think deserves it and who maybe not so much.</description>
+
+    </item>
+
+    <item>
+      <title>Jam or Marmalade? - Ep. 29</title>
+      <itunes:author></itunes:author>
+
+      <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
+      <enclosure url="https://loganoconnell.me/thunderbuddy-radio/Jam%20or%20Marmalade%3F.mp3" length="43893727" type="audio/mp3"/>
+      <link>https://loganoconnell.me/thunderbuddy-radio/Jam%20or%20Marmalade%3F.mp3</link>
+      <guid isPermaLink="false">9fd33cab833de10d8eb3cfb3af16cfa51b9c3f4c</guid>
+      <pubDate>Tue, 23 Mar 2021 23:00:00 -0400</pubDate>
+      <itunes:duration>3758</itunes:duration>
+      <description>Sorry, you won't find a debate about jam and marmalade here. In this episode, Logan and Elad take a journey through Elad's Marmalade II playlist, a sweet collection of alternative- and EDM-based genre-bending sounds.</description>
+
+    </item>
+
+    <item>
+      <title>Lovely Lil Wayne Bops - Ep. 28</title>
       <itunes:author></itunes:author>
 
       <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
@@ -36,6 +64,20 @@
       <pubDate>Tue, 09 Mar 2021 23:00:00 -0400</pubDate>
       <itunes:duration>3775</itunes:duration>
       <description>Today, all we play is Lil Wayne. GOAT music from start to stop.</description>
+
+    </item>
+
+    <item>
+      <title>Songs that Start with a P - Ep. 27</title>
+      <itunes:author></itunes:author>
+
+      <itunes:image href="https://loganoconnell.me/thunderbuddy-radio/cover-art.png"/>
+      <enclosure url="https://loganoconnell.me/thunderbuddy-radio/Songs%20that%20Start%20with%20a%20P.mp3" length="61814073" type="audio/mp3"/>
+      <link>https://loganoconnell.me/thunderbuddy-radio/Songs%20that%20Start%20with%20a%20P.mp3</link>
+      <guid isPermaLink="false">4a8d66c1412bc5babcae9148cd9137e754a62fc7</guid>
+      <pubDate>Tue, 02 Mar 2021 23:00:00 -0400</pubDate>
+      <itunes:duration>3863</itunes:duration>
+      <description>Right from the start of this episode, you'll only hear our favorite songs that start with the letter P.</description>
 
     </item>
 
