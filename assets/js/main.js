@@ -75,14 +75,14 @@ particlesJS('particles-js', {
 		  nb: 80
 	  },
 	  interactivity: {
-		  detect_on: "canvas",
+		  detect_on: "",
 		  events: {
 			  onhover: {
-				  enable: !1,
+				  enable: false,
 				  mode: "grab"
 			  },
 			  onclick: {
-				  enable: !0,
+				  enable: false,
 				  mode: "push"
 			  },
 			  resize: !0
