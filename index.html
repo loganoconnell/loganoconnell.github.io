@@ -16,25 +16,28 @@
 	</head>
 
 	<body class="is-preload">
+		<div style="position: absolute; width: 100%; height: 100%" id="particles-js"></div>
+
 		<div id="wrapper">
 			<section class="intro">
 				<header>
 					<h1>Logan O'Connell</h1>
-					<p>&bull;&nbsp;Computer Science @ UMD</p>
+					<p>&nbsp;Computer Science @ UMD</p>
 					<ul class="items">
 						<li>
 							<ul class="icons">
 								<li><a href="//github.com/loganoconnell" class="icon brands fa fa-github"><span class="label">GitHub</span></a></li>
 								<li><a href="//linkedin.com/in/loganoconnell" class="icon brands fa fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-								<li><a href="//twitter.com/logandev22" class="icon brands fa fa-twitter"><span class="label">Twitter</span></a></li>
+								<!-- <li><a href="//twitter.com/logandev22" class="icon brands fa fa-twitter"><span class="label">Twitter</span></a></li> -->
 								<!-- <br>
 								<li><a href="//blog.loganoconnell.me" class="icon brands fa fa-pencil"><span class="label">Blog</span></a></li> -->
+								<li><a href="sms:+17745716296" class="icon brands fa fa-comment"><span class="label">Text</span></a></li>
 								<li><a href="mailto:logan@loganoconnell.me" class="icon brands fa fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 						</li>
 					</ul>
 				</header>
-				<div class="content">
+				<div class="content" style="z-index: 2">
 					<span class="image fill" data-position="center"><img src="img/pic01.jpg" alt="" /></span>
 				</div>
 			</section>
@@ -45,7 +48,9 @@
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
+		<script src="assets/js/particles.min.js"></script>
 		<script src="assets/js/main.js"></script>
+
 		<script>
 			if (window.location.host == "loganoconnell.me" && window.location.protocol != "https:") {
  				window.location.protocol = "https:";
