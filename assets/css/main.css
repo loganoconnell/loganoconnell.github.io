@@ -17,8 +17,8 @@
 }
 
 @-webkit-keyframes fadeIn {
-	0% {opacity: 0;}
-    100% {opacity: 1;}
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 @-o-keyframes fadeIn {
@@ -41,44 +41,17 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   opacity: 0;
-  -webkit-animation: fadeIn 3s;
-  -moz-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
-  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+  animation: fadeIn 1.5s;
   animation-fill-mode: forwards;
 }
 
 .particles-js-canvas-el {
 	z-index: 1;
 	position: absolute;
-}
-
-@media screen and (max-width: 1152px) {
-
-	#particles-js {
-		opacity: 1;
-		animation: fadeIn 1s;
-	}
-
-}
-
-@media screen and (max-width: 736px) {
-
-	#particles-js {
-		opacity: 1;
-		animation: fadeIn 1s;
-	}
-
-}
-
-@media screen and (max-width: 480px) {
-
-	#particles-js {
-		opacity: 1;
-		animation: fadeIn 1s;
-	}
-
 }
 
 html, body, div, span, applet, object,
