@@ -1,5 +1,5 @@
 ///
-/// Forty by HTML5 UP
+/// Multiverse by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -41,7 +41,7 @@
 			}
 		}
 
-		@include breakpoint('<=xsmall') {
+		@include breakpoint('<=small') {
 			> .fields {
 				$gutter: (_size(element-margin) * 0.75);
 
@@ -71,11 +71,9 @@
 	label {
 		color: _palette(fg-bold);
 		display: block;
-		font-size: 0.8em;
+		font-size: 0.9em;
 		font-weight: _font(weight-bold);
-		letter-spacing: _font(letter-spacing-alt);
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
 	}
 
 	input[type="text"],
@@ -88,9 +86,9 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
-		border: none;
+		border: 0;
 		border-radius: 0;
-		color: inherit;
+		color: _palette(fg);
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -102,8 +100,7 @@
 		}
 
 		&:focus {
-			border-color: _palette(highlight);
-			box-shadow: 0 0 0 2px _palette(highlight);
+			box-shadow: inset 0 0 0 2px _palette(accent1);
 		}
 	}
 
@@ -161,8 +158,9 @@
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;
+			font-size: 1em;
 			font-weight: _font(weight);
-			padding-left: (_size(element-height) * 0.6) + 1em;
+			padding-left: (_size(element-height) * 0.6) + 0.75em;
 			padding-right: 0.75em;
 			position: relative;
 
@@ -173,7 +171,6 @@
 				font-size: 0.8em;
 				height: (_size(element-height) * 0.75);
 				left: 0;
-				letter-spacing: 0;
 				line-height: (_size(element-height) * 0.75);
 				position: absolute;
 				text-align: center;
@@ -184,16 +181,16 @@
 
 		&:checked + label {
 			&:before {
-				background: _palette(fg-bold);
-				border-color: _palette(highlight);
+				background: _palette(accent1);
+				border-color: _palette(accent1);
+				color: _palette(fg-bold);
 				content: '\f00c';
-				color: _palette(bg);
 			}
 		}
 
 		&:focus + label {
 			&:before {
-				box-shadow: 0 0 0 2px _palette(highlight);
+				box-shadow: 0 0 0 2px _palette(accent1);
 			}
 		}
 	}
@@ -214,21 +211,21 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-medium) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-medium) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-medium) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: _palette(fg-light) !important;
+		color: _palette(fg-medium) !important;
 		opacity: 1.0;
 	}
